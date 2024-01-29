@@ -14,14 +14,17 @@ public class WeaponController : MonoBehaviour
     float currentCooldown;
     public int pierce;
 
+    protected PlayerMovement pm;
+
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
+        pm = FindObjectOfType<PlayerMovement>();
         currentCooldown = cooldownDuration; // at start set current cooldown to the duration
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         currentCooldown -= Time.deltaTime;
         if(currentCooldown <= 0f) // once cooldown reaches 0, attack
@@ -30,7 +33,7 @@ public class WeaponController : MonoBehaviour
         }
     }
 
-    void Attack()
+    protected virtual void Attack()
     {
         currentCooldown = cooldownDuration;
     }
