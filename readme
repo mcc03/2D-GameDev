@@ -1,1 +1,5 @@
 1. In Unity project go to Edit > Project Settings > 2D Physics and set y gravity to 0
+2. Make layer 'Terrain' assign this to TerrainChunk and apply to children
+
+curernt bugs:
+tiles not being generated automatically, you have to walk onto an empty tile and drag a chunk into the current chunk field

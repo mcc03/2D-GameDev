@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
 
     //used to check direction player is moving
-    Vector2 moveDir;
+    public Vector2 moveDir;
 
     // Start is called before the first frame update
     void Start()
