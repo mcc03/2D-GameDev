@@ -417,7 +417,7 @@ MonoBehaviour:
     m_Bits: 64
   currentChunk: {fileID: 3166344493622456422, guid: 89d514f22f71ae742bf8a04098126ca9, type: 3}
   spawnedChunks:
-  - {fileID: 670332756}
+  - {fileID: 1853999344}
   maxOpDist: 50
   optimizerCooldownDur: 1
 --- !u!4 &1025784214
@@ -613,6 +613,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 16, y: 16}
   m_EdgeRadius: 0
+--- !u!1 &1853999344 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3166344493622456422, guid: bde15f8c240363c49aecc3924d8650b2, type: 3}
+  m_PrefabInstance: {fileID: 809552674}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6136606739791374749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -670,11 +675,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
---- !u!1 &1853999344 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3166344493622456422, guid: bde15f8c240363c49aecc3924d8650b2, type: 3}
-  m_PrefabInstance: {fileID: 809552674}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -683,4 +683,4 @@ SceneRoots:
   - {fileID: 1354885294}
   - {fileID: 6136606739791374749}
   - {fileID: 1025784214}
-  - {fileID: 1409167069}
+  - {fileID: 809552674}
