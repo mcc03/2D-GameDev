@@ -14,7 +14,7 @@ public class GarlicController : WeaponController
     protected override void Attack()
     {
         base.Attack();
-        GameObject spanwedGarlic = Instantiate(prefab);
+        GameObject spanwedGarlic = Instantiate(weaponData.Prefab);
         spanwedGarlic.transform.position = transform.position; // garlic will follow the player
         spanwedGarlic.transform.parent = transform; // so it is layered underneath the player
     }
