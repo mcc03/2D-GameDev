@@ -6,10 +6,27 @@ using UnityEngine;
 public class ProjectileWeaponBehaviour : MonoBehaviour
 {
 
+    public WeaponScriptableObject weaponData;
+
     protected Vector3 direction;
 
     // remove the object after set time
     public float destroyAfterSeconds;
+
+    //variables in weapon scriptable object script
+    //current stats
+    protected float currentDamage;
+    protected float currentSpeed;
+    protected float currentCooldownDuration;
+    protected int currentPierce;
+
+    void Awake()
+    {
+        currentDamage = weaponData.Damage;
+        currentSpeed = weaponData.Speed;
+        currentCooldownDuration = weaponData.CooldownDuration;
+        currentPierce = weaponData.Pierce;
+    }
 
     // Start is called before the first frame update
     protected virtual void Start()
@@ -64,5 +81,25 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
 
         transform.localScale = scale;
         transform.rotation = Quaternion.Euler(rotation); // cannot set vector because cannot convert a quaternion to a Vector3
+    }
+
+    protected virtual void OnTriggerEnter2D(Collider2D col) {
+        //checking if the collider has the tag "enemy", if so apply the damage
+        if(col.CompareTag("Enemy"))
+        {
+            EnemyStats enemy = col.GetComponent<EnemyStats>();
+            enemy.TakeDamage(currentDamage); // current damage instead of weaponData.damage because there may be damage multipliers later on
+            ReducePierce();
+        }
+    }
+
+    //reduce amount of times the projectile can pierce after hitting an enemy and destroy once pierce is 0
+    void ReducePierce()
+    {   
+        currentPierce--;
+        if(currentPierce <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
