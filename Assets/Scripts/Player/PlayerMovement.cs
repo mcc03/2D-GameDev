@@ -8,6 +8,11 @@ public class PlayerMovement : MonoBehaviour
     //movement
     public float moveSpeed;
     Rigidbody2D rb;
+    [HideInInspector]
+    public float lastHorizontalVector;
+    [HideInInspector]
+    public float lastVerticalVector;
+    [HideInInspector]
 
     //used to check direction player is moving
     public Vector2 moveDir;
@@ -23,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
         InputManagement();
     }
 
+
     //better for physics updates- not based on framerate
     void FixedUpdate() {
         Move();
@@ -34,6 +40,15 @@ public class PlayerMovement : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
 
         moveDir = new Vector2(moveX, moveY).normalized;
+
+        if(moveDir.x !=0)
+        {
+            lastHorizontalVector = moveDir.x;
+        }
+        if(moveDir.y !=0)
+        {
+            lastVerticalVector = moveDir.y;
+        }
     }
 
     void Move()
