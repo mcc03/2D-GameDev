@@ -37,5 +37,13 @@ public class MeleeWeaponBehaviour : MonoBehaviour
             EnemyStats enemy = col.GetComponent<EnemyStats>();
             enemy.TakeDamage(currentDamage);
         }
+        //same applies to props
+        else if (col.CompareTag("Prop"))
+        {
+            if(col.gameObject.TryGetComponent(out BreakableProps breakable))
+            {
+                breakable.TakeDamage(currentDamage);
+            }
+        }
     }
 }

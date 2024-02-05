@@ -25,5 +25,15 @@ public class GarlicBehaviour : MeleeWeaponBehaviour
 
             markedEnemies.Add(col.gameObject); //add the enemy to markedEnemies so the same instance of garlic cannot damage the enemy
         }
+        //same applies to props
+        else if (col.CompareTag("Prop"))
+        {
+            if(col.gameObject.TryGetComponent(out BreakableProps breakable)&& !markedEnemies.Contains(col.gameObject))
+            {
+                breakable.TakeDamage(currentDamage);
+
+                markedEnemies.Add(col.gameObject);
+            }
+        }
     }
 }
