@@ -71,6 +71,8 @@ public class PlayerStats : MonoBehaviour
         {
             isInvincible = false;
         }
+
+        Recover();
     }
 
     public void IncreaseExperience(int amount)
@@ -134,6 +136,22 @@ public class PlayerStats : MonoBehaviour
 
             //make sure the player's health does not exceed max health
             if (currentHealth > characterData.MaxHealth)
+            {
+                currentHealth = characterData.MaxHealth;
+            }
+        }
+    }
+
+    // recover health
+    void Recover()
+    {
+        if(currentHealth < characterData.MaxHealth)
+        {
+            //increase current health
+            currentHealth += currentRecovery * Time.deltaTime;
+
+            //ensuring that health recovered does not exceed maximum health cap
+            if(currentHealth > characterData.MaxHealth)
             {
                 currentHealth = characterData.MaxHealth;
             }
