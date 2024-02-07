@@ -13,6 +13,6 @@ public class KnifeBehaviour : ProjectileWeaponBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += direction * weaponData.Speed * Time.deltaTime; // assign position of knife which is parented in player
+        transform.position += direction * currentSpeed * Time.deltaTime; // assign position of knife which is parented in player
     }
 }

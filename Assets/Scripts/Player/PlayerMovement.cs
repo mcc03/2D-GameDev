@@ -19,11 +19,12 @@ public class PlayerMovement : MonoBehaviour
 
     //references
     Rigidbody2D rb;
-    public CharacterScriptableObject characterData;
+    PlayerStats player;
 
     // Start is called before the first frame update
     void Start()
     {
+        player = GetComponent<PlayerStats>();
         rb = GetComponent<Rigidbody2D>();
         lastMovedVector = new Vector2(1, 0f); // if this is not set and the player does not move, the projectile will have no momentum
     }
@@ -66,6 +67,6 @@ public class PlayerMovement : MonoBehaviour
     void Move()
     {
         //apply velocity to rigidbody
-        rb.velocity = new Vector2(moveDir.x * characterData.MoveSpeed, moveDir.y * characterData.MoveSpeed);
+        rb.velocity = new Vector2(moveDir.x * player.currentMoveSpeed, moveDir.y * player.currentMoveSpeed);
     }
 }
