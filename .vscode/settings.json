@@ -42,7 +42,7 @@
         "**/*.mat": true,
         "**/*.meta": true,
         "**/*.prefab": true,
-        "**/*.unity": true,
+        "**/*.unity": false,
         "build/": true,
         "Build/": true,
         "Library/": true,
@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "2D-GameDev.sln"
+    "dotnet.defaultSolution": "2D-GameDev2.sln"
 }
