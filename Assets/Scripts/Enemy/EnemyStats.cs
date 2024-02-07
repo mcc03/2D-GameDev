@@ -35,4 +35,15 @@ public class EnemyStats : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    //enemy will deal damager to player when their collider is touching the players' collider
+    private void OnCollisionStay2D(Collision2D col) 
+    {
+        //reference script from the collided collider and deal damage using TakeDamage method
+        if(col.gameObject.CompareTag("Player"))
+        {
+            PlayerStats player = col.gameObject.GetComponent<PlayerStats>();
+            player.TakeDamage(currentDamage);
+        }
+    }
 }

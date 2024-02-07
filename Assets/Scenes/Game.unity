@@ -448,6 +448,8 @@ GameObject:
   - component: {fileID: 1354885295}
   - component: {fileID: 1354885297}
   - component: {fileID: 1354885296}
+  - component: {fileID: 1354885298}
+  - component: {fileID: 1354885299}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -541,6 +543,7 @@ MonoBehaviour:
   lastVerticalVector: 0
   moveDir: {x: 0, y: 0}
   lastMovedVector: {x: 0, y: 0}
+  characterData: {fileID: 11400000, guid: 6f9d0666b56a28344a235e164457ceeb, type: 2}
 --- !u!50 &1354885296
 Rigidbody2D:
   serializedVersion: 4
@@ -613,12 +616,43 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 16, y: 16}
   m_EdgeRadius: 0
---- !u!1 &1853999344 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3166344493622456422, guid: bde15f8c240363c49aecc3924d8650b2, type: 3}
-  m_PrefabInstance: {fileID: 809552674}
+--- !u!114 &1354885298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &6136606739791374749
+  m_GameObject: {fileID: 1354885290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc79230ac31f46c408b104966b55ee37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterData: {fileID: 11400000, guid: 6f9d0666b56a28344a235e164457ceeb, type: 2}
+  experience: 0
+  level: 1
+  experienceCap: 0
+  levelRanges:
+  - startLevel: 1
+    endLevel: 3
+    experienceCapIncrease: 100
+  - startLevel: 4
+    endLevel: 5
+    experienceCapIncrease: 200
+  invincibilityDuration: 0.5
+--- !u!114 &1354885299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354885290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6964d828c7c3f7a409a1319bd3708ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1409167069
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -630,6 +664,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bat
       objectReference: {fileID: 0}
+    - target: {fileID: 2580088678315689601, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
+      propertyPath: drops.Array.data[0].dropRate
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580088678315689601, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
+      propertyPath: drops.Array.data[0].itemPrefab
+      value: 
+      objectReference: {fileID: 8661467440491389818, guid: 0be0632be09d1d8409c1272bdee4454f, type: 3}
     - target: {fileID: 4704887674137889898, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.3222346
@@ -670,17 +712,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6972869520200437865, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
+--- !u!1 &1853999344 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3166344493622456422, guid: bde15f8c240363c49aecc3924d8650b2, type: 3}
+  m_PrefabInstance: {fileID: 809552674}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 1354885294}
-  - {fileID: 6136606739791374749}
-  - {fileID: 1025784214}
   - {fileID: 809552674}
+  - {fileID: 1025784214}
+  - {fileID: 1409167069}
