@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
 
     //movement
     public float moveSpeed;
-    Rigidbody2D rb;
 
     [HideInInspector]
     public float lastHorizontalVector;
@@ -17,6 +16,10 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 moveDir; //used to check direction player is moving
     [HideInInspector]
     public Vector2 lastMovedVector;
+
+    //references
+    Rigidbody2D rb;
+    public CharacterScriptableObject characterData;
 
     // Start is called before the first frame update
     void Start()
@@ -63,6 +66,6 @@ public class PlayerMovement : MonoBehaviour
     void Move()
     {
         //apply velocity to rigidbody
-        rb.velocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
+        rb.velocity = new Vector2(moveDir.x * characterData.MoveSpeed, moveDir.y * characterData.MoveSpeed);
     }
 }

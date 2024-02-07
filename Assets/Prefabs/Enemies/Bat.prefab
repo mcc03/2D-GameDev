@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 8632565042993918884}
   - component: {fileID: 6978027442680980236}
   - component: {fileID: 6972869520200437865}
+  - component: {fileID: 8503754469814537721}
+  - component: {fileID: 2580088678315689601}
   m_Layer: 0
   m_Name: Bat
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 334622817
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 1180266165, guid: e009818891d4681499e8fe9ceb217532, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -165,4 +167,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f147dbcc609c63941b98dd2597786542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  enemyData: {fileID: 11400000, guid: c46252087b7a75a4da1c2d0a284b44b6, type: 2}
+--- !u!114 &8503754469814537721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2350895254006300732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f55a0bea4226241868c7b6d1e2b237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: c46252087b7a75a4da1c2d0a284b44b6, type: 2}
+--- !u!114 &2580088678315689601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2350895254006300732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8661faddaa07b78459c5766b019e0111, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drops:
+  - name: Blue gem
+    itemPrefab: {fileID: 0}
+    dropRate: 50
