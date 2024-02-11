@@ -10,6 +10,7 @@ public class HealthPotion : Pickup, ICollectible
 
     public void Collect()
     {
+        //Debug.Log("Collected");
         PlayerStats player = FindObjectOfType<PlayerStats>();
         player.RestoreHealth(healthToRestore);
     }
