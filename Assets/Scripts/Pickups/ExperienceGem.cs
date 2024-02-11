@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ExperienceGem : MonoBehaviour, ICollectible
+public class ExperienceGem : Pickup, ICollectible
 {
 
     //how much experience the gem gives
@@ -11,10 +11,8 @@ public class ExperienceGem : MonoBehaviour, ICollectible
 
     public void Collect()
     {
+        //Debug.Log("Collected");
         PlayerStats player = FindObjectOfType<PlayerStats>();
         player.IncreaseExperience(experienceGranted);
-        
-        //destroy gem once picked up
-        Destroy(gameObject);
     }
 }
