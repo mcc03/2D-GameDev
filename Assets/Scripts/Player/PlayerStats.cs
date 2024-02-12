@@ -6,7 +6,7 @@ public class PlayerStats : MonoBehaviour
 {
 
     //reference to char scriptable object
-    public CharacterScriptableObject characterData;
+    CharacterScriptableObject characterData;
 
     //current stats
     [HideInInspector]
@@ -48,6 +48,10 @@ public class PlayerStats : MonoBehaviour
 
     void Awake()
     {
+
+        characterData = CharacterSelector.GetData();
+        CharacterSelector.instance.DestroySingleton();
+
         //assign the variables
         currentHealth = characterData.MaxHealth;
         currentRecovery = characterData.Recovery;

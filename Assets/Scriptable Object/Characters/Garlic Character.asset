@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9a9756f2a3745747ae13340c20c6fe6, type: 3}
-  m_Name: Knife Character
+  m_Name: Garlic Character
   m_EditorClassIdentifier: 
   startingWeapon: {fileID: 0}
   maxHealth: 1000
