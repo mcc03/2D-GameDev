@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9a9756f2a3745747ae13340c20c6fe6, type: 3}
   m_Name: Garlic Character
   m_EditorClassIdentifier: 
-  startingWeapon: {fileID: 0}
+  startingWeapon: {fileID: 6849132073363068551, guid: a4a1fe63e691f9a49b75eeb93a1729d4, type: 3}
   maxHealth: 1000
   recovery: 0
   moveSpeed: 5
