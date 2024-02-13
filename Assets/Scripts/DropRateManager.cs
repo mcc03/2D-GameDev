@@ -18,6 +18,11 @@ public class DropRateManager : MonoBehaviour
     //script is called before a game object is destroyed
     void OnDestroy()
     {
+        if(!gameObject.scene.isLoaded) //fixes the spawn game objects error shown when exiting playmode
+        {
+            return;
+        }
+
         float randomNumber = UnityEngine.Random.Range(0f, 100f);
         List<Drops> possibleDrops = new List<Drops>();
 
