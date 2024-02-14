@@ -361,6 +361,7 @@ GameObject:
   - component: {fileID: 1354885300}
   - component: {fileID: 1354885299}
   - component: {fileID: 1354885301}
+  - component: {fileID: 1354885302}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -498,10 +499,10 @@ MonoBehaviour:
   currentMight: 0
   currentProjectileSpeed: 0
   currentMagnet: 0
-  spawnedWeapons: []
   experience: 0
   level: 1
   experienceCap: 0
+  invincibilityDuration: 0.5
   levelRanges:
   - startLevel: 1
     endLevel: 3
@@ -509,7 +510,11 @@ MonoBehaviour:
   - startLevel: 4
     endLevel: 5
     experienceCapIncrease: 200
-  invincibilityDuration: 0.5
+  weaponIndex: 0
+  passiveItemIndex: 0
+  secondWeaponTest: {fileID: 6849132073363068551, guid: a4a1fe63e691f9a49b75eeb93a1729d4, type: 3}
+  firstPassiveItemTest: {fileID: 3271602385488222673, guid: be38b82a92f7e4342b75a74c592133af, type: 3}
+  secondPassiveItemTest: {fileID: 5515593853720398718, guid: 5e4971a5a8f1ac24599798954ca0d215, type: 3}
 --- !u!114 &1354885299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -588,6 +593,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &1354885302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354885290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c3f9ee7c92b7548b620685bcc69696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  weaponLevels: 000000000000000000000000000000000000000000000000
+  passiveItemSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  passiveItemLevel: 000000000000000000000000000000000000000000000000
 --- !u!1001 &1409167069
 PrefabInstance:
   m_ObjectHideFlags: 0
