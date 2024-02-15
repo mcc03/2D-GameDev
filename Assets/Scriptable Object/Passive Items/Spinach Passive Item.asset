@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: Spinach Passive Item
   m_EditorClassIdentifier: 
   multiplier: 100
+  level: 1
+  nextLevelPrefab: {fileID: 0}
