@@ -1,20 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
     //holds players weapons and passive items
     public List <WeaponController> weaponSlots = new List<WeaponController>(6);
     public int[] weaponLevels = new int[6];
+    public List<Image> weaponUISlots = new List<Image>(6); //stores weapon UI images
     public List<PassiveItem> passiveItemSlots = new List<PassiveItem>(6);
     public int[] passiveItemLevels = new int[6];
+    public List<Image> passiveItemUISlots = new List<Image>(6); //stores passive item UI images
 
     //assign weapon to the given slot index
     public void AddWeapon(int slotIndex, WeaponController weapon)
     {
         weaponSlots[slotIndex] = weapon; //assign slot index to weapon
         weaponLevels[slotIndex] = weapon.weaponData.Level; //assigning the level to the weapon
+        weaponUISlots[slotIndex].enabled = true; //only shows images with slots in use
+        weaponUISlots[slotIndex].sprite = weapon.weaponData.Icon; //set image to weapon of that slot index
     }
 
     //assign passive weapon to the given slot index
@@ -22,6 +27,8 @@ public class InventoryManager : MonoBehaviour
     {
         passiveItemSlots[slotIndex] = passiveItem; //assign slot index to passive item
         passiveItemLevels[slotIndex] = passiveItem.passiveItemData.Level; //assign the level to the passive item
+        passiveItemUISlots[slotIndex].enabled = true; //only shows images with slots in use
+        passiveItemUISlots[slotIndex].sprite = passiveItem.passiveItemData.Icon; //set image to passive item of that slot index
     }
 
     //leveling system for weapons
