@@ -196,6 +196,8 @@ public class PlayerStats : MonoBehaviour
         GameManager.instance.currentMightDisplay.text = "Might: " + currentMight;
         GameManager.instance.currentProjectileSpeedDisplay.text = "Projectile Speed: " + currentProjectileSpeed;
         GameManager.instance.currentMagnetDisplay.text = "Magnet: " + currentMagnet;
+
+        GameManager.instance.AssignChosenCharacterUI(characterData);
     }
 
     void Update()
@@ -263,6 +265,8 @@ public class PlayerStats : MonoBehaviour
     {
         if(!GameManager.instance.isGamerOver)
         {
+            GameManager.instance.AssignLevelReachedUI(level); // assign players' level reached
+            GameManager.instance.AssignChosenWeaponsAndPassiveItemsUI(inventory.weaponUISlots, inventory.passiveItemUISlots); // assign corresponding sprites
             GameManager.instance.GameOver(); // called when game is over
         }
     }
