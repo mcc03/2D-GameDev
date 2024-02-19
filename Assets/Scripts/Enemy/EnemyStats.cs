@@ -16,11 +16,27 @@ public class EnemyStats : MonoBehaviour
     [HideInInspector]
     public float currentDamage;
 
+    public float despawnDistance = 20f;
+    Transform player;
+
     void Awake()
     {
         currentMoveSpeed = enemyData.MoveSpeed;
         currentHealth = enemyData.MaxHealth;
         currentDamage = enemyData.Damage;
+    }
+
+     void Start()
+    {
+        player = FindObjectOfType<PlayerStats>().transform;
+    }
+
+    void update()
+    {
+        if(Vector2.Distance(transform.position, player.position) >= despawnDistance)
+        {
+            ReturnEnemy();
+        }
     }
 
     //allows us to damage the enemy
@@ -48,5 +64,17 @@ public class EnemyStats : MonoBehaviour
             PlayerStats player = col.gameObject.GetComponent<PlayerStats>();
             player.TakeDamage(currentDamage);
         }
+    }
+
+    private void OnDestroy()
+    {
+        EnemySpawner es = FindObjectOfType<EnemySpawner>();
+        es.OnEnemyKilled();
+    }
+
+    void ReturnEnemy()
+    {
+        EnemySpawner es = FindObjectOfType<EnemySpawner>();
+        transform.position = player.position + es.relativesSpawnPoints[Random.Range(0,es.relativesSpawnPoints.Count)].position;
     }
 }
