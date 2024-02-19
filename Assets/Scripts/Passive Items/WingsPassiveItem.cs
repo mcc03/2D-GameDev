@@ -8,6 +8,6 @@ public class WingsPassiveItem : PassiveItem
     protected override void ApplyModifier()
     {
         //multiply current movespeed by value of the scriptable object
-        player.currentMoveSpeed *= 1 + passiveItemData.Multiplier / 100f;
+        player.CurrentMoveSpeed *= 1 + passiveItemData.Multiplier / 100f;
     }
 }

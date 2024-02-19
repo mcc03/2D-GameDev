@@ -67,6 +67,6 @@ public class PlayerMovement : MonoBehaviour
     void Move()
     {
         //apply velocity to rigidbody
-        rb.velocity = new Vector2(moveDir.x * player.currentMoveSpeed, moveDir.y * player.currentMoveSpeed);
+        rb.velocity = new Vector2(moveDir.x * player.CurrentMoveSpeed, moveDir.y * player.CurrentMoveSpeed);
     }
 }
