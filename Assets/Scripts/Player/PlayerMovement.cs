@@ -41,6 +41,12 @@ public class PlayerMovement : MonoBehaviour
 
     void InputManagement()
     {
+        // disable movement inputs if game over is true
+        if(GameManager.instance.isGamerOver)
+        {
+            return;
+        }
+
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
@@ -66,6 +72,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
+        // disable movement inputs if game over is true
+        if(GameManager.instance.isGamerOver)
+        {
+            return;
+        }
+
         //apply velocity to rigidbody
         rb.velocity = new Vector2(moveDir.x * player.CurrentMoveSpeed, moveDir.y * player.CurrentMoveSpeed);
     }

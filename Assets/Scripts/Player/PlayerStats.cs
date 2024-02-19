@@ -261,7 +261,10 @@ public class PlayerStats : MonoBehaviour
 
     public void Kill()
     {
-        Debug.Log("You are dead!");
+        if(!GameManager.instance.isGamerOver)
+        {
+            GameManager.instance.GameOver(); // called when game is over
+        }
     }
 
     //healing

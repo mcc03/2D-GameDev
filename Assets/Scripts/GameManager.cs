@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     public GameObject pauseScreen;
+    public GameObject resultsScreen;
 
     // current stat display
     public Text currentHealthDisplay;
@@ -30,6 +31,9 @@ public class GameManager : MonoBehaviour
     public Text currentMightDisplay;
     public Text currentProjectileSpeedDisplay;
     public Text currentMagnetDisplay;
+
+    // check if the game is over
+    public bool isGamerOver = false;
 
     void Awake()
     {
@@ -65,6 +69,13 @@ public class GameManager : MonoBehaviour
 
             case GameState.GameOver:
             //code for game over state
+            if(!isGamerOver)
+            {
+                isGamerOver = true;
+                Time.timeScale = 0f; // stop the game
+                Debug.Log("Game Over");
+                DisplayResults(); // display results of the run
+            }
                 break;
 
                 default:
@@ -122,6 +133,17 @@ public class GameManager : MonoBehaviour
     void DisableScreens()
     {
         pauseScreen.SetActive(false);
+        resultsScreen.SetActive(false);
+    }
+
+    public void GameOver()
+    {
+        ChangeState(GameState.GameOver);
+    }
+
+    void DisplayResults()
+    {
+        resultsScreen.SetActive(true);
     }
 
     // void TestSwtichState()
