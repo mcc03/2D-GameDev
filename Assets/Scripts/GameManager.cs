@@ -37,8 +37,14 @@ public class GameManager : MonoBehaviour
     public Image chosenCharacterImage;
     public Text chosenCharacterName;
     public Text levelReachedDisplay;
+    public Text timeSurvivedDisplay;
     public List<Image> chosenWeaponsUI = new List<Image>(6);
     public List<Image> chosenPassiveItemsUI = new List<Image>(6);
+
+    [Header("Stopwatch")]
+    public float timeLimit;
+    float stopwatchTime; // track elapsed time
+    public Text stopwatchDisplay;
 
     // check if the game is over
     public bool isGamerOver = false;
@@ -67,7 +73,7 @@ public class GameManager : MonoBehaviour
         {
             case GameState.Gameplay:
             CheckForPauseAndResume();
-            //code for gameplay state
+            UpdateStopwatch();
                 break;
 
             case GameState.Paused:
@@ -76,7 +82,6 @@ public class GameManager : MonoBehaviour
                 break;
 
             case GameState.GameOver:
-            //code for game over state
             if(!isGamerOver)
             {
                 isGamerOver = true;
@@ -146,6 +151,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        timeSurvivedDisplay.text = stopwatchDisplay.text; // don't have to track it, just assign it at the end
         ChangeState(GameState.GameOver);
     }
 
@@ -202,6 +208,28 @@ public class GameManager : MonoBehaviour
                 chosenPassiveItemsUI[i].enabled = false; // if not, do not display
             }
         }
+    }
+
+    void UpdateStopwatch()
+    {
+        // increment time
+        stopwatchTime += Time.deltaTime;
+
+        UpdateStopwatchDisplay();
+
+        // trigger game over method once time limit is reached
+        if(stopwatchTime >= timeLimit)
+        {
+            GameOver();
+        }
+    }
+
+    void UpdateStopwatchDisplay()
+    {
+        int minutes = Mathf.FloorToInt(stopwatchTime / 60);  // rounds down to nearest integer
+        int seconds = Mathf.FloorToInt(stopwatchTime % 60); // finds remainder when divided by 60
+
+        stopwatchDisplay.text = string.Format("{0:00}:{1:00}", minutes, seconds); // convert to string and display
     }
 
     // void TestSwtichState()
