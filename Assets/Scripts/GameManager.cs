@@ -12,7 +12,8 @@ public class GameManager : MonoBehaviour
     {
         Gameplay,
         Paused,
-        GameOver
+        GameOver,
+        LevelUp
     }
 
     // stores current state of the game
@@ -23,6 +24,7 @@ public class GameManager : MonoBehaviour
     [Header("Screens")]
     public GameObject pauseScreen;
     public GameObject resultsScreen;
+    public GameObject levelUpScreen;
 
     // current stat display
     [Header("Current Stat Displays")]
@@ -48,6 +50,12 @@ public class GameManager : MonoBehaviour
 
     // check if the game is over
     public bool isGamerOver = false;
+
+    // check if the player is choosing an upgrade
+    public bool choosingUpgrade = false;
+
+    // reference to the player object
+    public GameObject playerObject;
 
     void Awake()
     {
@@ -90,6 +98,16 @@ public class GameManager : MonoBehaviour
                 DisplayResults(); // display results of the run
             }
                 break;
+
+            case GameState.LevelUp:
+            if(!choosingUpgrade)
+            {
+                choosingUpgrade = true;
+                Time.timeScale = 0f; // pause game when choosing upgrade
+                Debug.Log("Upgrades available");
+                levelUpScreen.SetActive(true);
+            }
+            break;
 
                 default:
                     Debug.LogWarning("State does not exist");
@@ -143,10 +161,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void DisableScreens()
+    void DisableScreens() // disables UI elements at the start of the game
     {
         pauseScreen.SetActive(false);
         resultsScreen.SetActive(false);
+        levelUpScreen.SetActive(false);
     }
 
     public void GameOver()
@@ -230,6 +249,20 @@ public class GameManager : MonoBehaviour
         int seconds = Mathf.FloorToInt(stopwatchTime % 60); // finds remainder when divided by 60
 
         stopwatchDisplay.text = string.Format("{0:00}:{1:00}", minutes, seconds); // convert to string and display
+    }
+
+    public void StartLevelUp()
+    {
+        ChangeState(GameState.LevelUp); // change game state to level up  
+        playerObject.SendMessage("RemoveAndApplyUpgrades"); // call the method without having to reference the whole inventroy manager script
+    }
+
+    public void EndLevelUp()
+    {
+        choosingUpgrade = false;
+        Time.timeScale = 1f; // resume once upgrade has been chosen
+        levelUpScreen.SetActive(false); // disable UI element
+        ChangeState(GameState.Gameplay); // change back to gameplay game state
     }
 
     // void TestSwtichState()

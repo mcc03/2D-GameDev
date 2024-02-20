@@ -19,4 +19,6 @@ MonoBehaviour:
   pierce: 0
   level: 1
   nextLevelPrefab: {fileID: 6849132073363068551, guid: 8a7359aef3a551c4ebcfcac54d57e727, type: 3}
+  name: Garlic
+  description: Deals damage to enemies in the area
   icon: {fileID: -201046322, guid: ed5dcaf09fbb7204ca45c96cada0f6aa, type: 3}

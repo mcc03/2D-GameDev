@@ -179,8 +179,8 @@ public class PlayerStats : MonoBehaviour
 
         //spawn the starting weapon
         SpawnWeapon(characterData.StartingWeapon);
-        SpawnWeapon(secondWeaponTest);
-        SpawnPassiveItem(firstPassiveItemTest);
+        //SpawnWeapon(secondWeaponTest);
+        //SpawnPassiveItem(firstPassiveItemTest);
         SpawnPassiveItem(secondPassiveItemTest);
     }
 
@@ -240,6 +240,8 @@ public class PlayerStats : MonoBehaviour
                 }
             }
             experienceCap += experienceCapIncrease;
+
+            GameManager.instance.StartLevelUp(); // trigger start level up method
         }
     }
 
