@@ -33,6 +33,7 @@ public class EnemySpawner : MonoBehaviour
     public int maxEnemiesAllowed; // The maximum number of enemies allowed on the map at once
     public bool maxEnemiesReached = false; //A flag indicating if the maxium number of enemies has been reached.
     public float waveInterval; //  The Interval between each wave
+    bool isWaveActive = false;
 
     [Header("Spawn Position")]
     public List<Transform> relativesSpawnPoints; // A list to store all the relative SpawnPoints of enemies
@@ -49,7 +50,7 @@ public class EnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0 ) // checks if wave has ended and the next wave should start
+        if(currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0 && !isWaveActive) // checks if wave has ended and the next wave should start
         {
             StartCoroutine(BeginNextWave());
         }
@@ -67,12 +68,14 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator BeginNextWave()
     {   
+        isWaveActive = true;
         // wave for waveInterval seconds before starting the next wave
         yield return new WaitForSeconds(waveInterval);
 
         // If there are more waves to start to start after the current wave, move on to the next
         if(currentWaveCount < waves.Count - 1 )
         {
+            isWaveActive = false;
             currentWaveCount++;
             CalculateWaveQuota();
         }
