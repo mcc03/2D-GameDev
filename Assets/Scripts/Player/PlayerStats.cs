@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -157,6 +158,11 @@ public class PlayerStats : MonoBehaviour
     public int weaponIndex;
     public int passiveItemIndex;
 
+    [Header("UI")]
+    public Image healthBar;
+    public Image expBar;
+    public Text levelText;
+
     //for testing
     public GameObject secondWeaponTest;
     public GameObject firstPassiveItemTest, secondPassiveItemTest;
@@ -198,6 +204,10 @@ public class PlayerStats : MonoBehaviour
         GameManager.instance.currentMagnetDisplay.text = "Magnet: " + currentMagnet;
 
         GameManager.instance.AssignChosenCharacterUI(characterData);
+
+        UpdateHealthBar(); // set health bar value
+        UpdateExpBar(); // set exp value
+        UpdateLevelText(); // set lvl value
     }
 
     void Update()
@@ -220,6 +230,8 @@ public class PlayerStats : MonoBehaviour
         experience += amount;
 
         LevelUpChecker();
+
+        UpdateExpBar();
     }
 
     void LevelUpChecker()
@@ -241,8 +253,22 @@ public class PlayerStats : MonoBehaviour
             }
             experienceCap += experienceCapIncrease;
 
+            UpdateLevelText();
+
             GameManager.instance.StartLevelUp(); // trigger start level up method
         }
+    }
+
+    void UpdateExpBar()
+    {
+        // update exp bar fill amount
+        expBar.fillAmount = (float)experience / experienceCap; // divide players experience by the current exp cap
+    }
+
+    void UpdateLevelText()
+    {
+        // update level text
+        levelText.text = " LV " + level.ToString();
     }
 
     //method to allow the player to take damage from enemies
@@ -260,7 +286,15 @@ public class PlayerStats : MonoBehaviour
             {
                 Kill();
             }
+
+            UpdateHealthBar(); // update health bar after taking damage
         }
+    }
+
+    void UpdateHealthBar()
+    {
+        // update health bar
+        healthBar.fillAmount = currentHealth / characterData.MaxHealth; // calculating players ratio to current health to max health
     }
 
     public void Kill()
