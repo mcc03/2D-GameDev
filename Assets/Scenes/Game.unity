@@ -6539,7 +6539,7 @@ MonoBehaviour:
   - {fileID: 752314723}
   - {fileID: 193241977}
   - {fileID: 1046946949}
-  timeLimit: 75
+  timeLimit: 10
   stopwatchDisplay: {fileID: 1749266206}
   isGamerOver: 0
   choosingUpgrade: 0
