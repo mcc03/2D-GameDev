@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8503754469814537721}
   - component: {fileID: 2580088678315689601}
   m_Layer: 0
-  m_Name: Bat
+  m_Name: Bat Rare
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 1180266165, guid: e009818891d4681499e8fe9ceb217532, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.28502133, g: 0.89638585, b: 0.990566, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -196,6 +196,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drops:
-  - name: Blue gem
+  - name: Blue gem 2
     itemPrefab: {fileID: 8661467440491389818, guid: 0be0632be09d1d8409c1272bdee4454f, type: 3}
-    dropRate: 50
+    dropRate: 90

@@ -1550,8 +1550,8 @@ RectTransform:
   - {fileID: 2135306690}
   - {fileID: 1968767248}
   - {fileID: 1749266208}
-  - {fileID: 2147221769}
   - {fileID: 316132981}
+  - {fileID: 2147221769}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3269,20 +3269,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - waveName: wave1
+  - waveName: Wave 1
     enemyGroups:
     - enemyName: bat
-      enemyCount: 50
+      enemyCount: 10
       spawnCount: 0
       enemyPrehab: {fileID: 2350895254006300732, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 2
+    spawnCount: 0
+  - waveName: Wave 2
+    enemyGroups:
+    - enemyName: bat rare
+      enemyCount: 3
+      spawnCount: 0
+      enemyPrehab: {fileID: 2350895254006300732, guid: cc70f4d5b13a413449f18cbe900dffc7, type: 3}
+    waveQuota: 0
+    spawnInterval: 5
     spawnCount: 0
   currentWaveCount: 0
   enemiesAlive: 0
-  maxEnemiesAllowed: 100
+  maxEnemiesAllowed: 20
   maxEnemiesReached: 0
-  waveInterval: 3
+  waveInterval: 5
   relativesSpawnPoints:
   - {fileID: 1570680997}
   - {fileID: 202426025}
@@ -4201,7 +4210,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Menu
+          m_StringArgument: Title Scene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &838500770
@@ -6197,7 +6206,7 @@ Transform:
   m_GameObject: {fileID: 1154578654}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 15.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6445,7 +6454,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Menu
+          m_StringArgument: Title Scene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1230680472
@@ -7637,7 +7646,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1384043404
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10641,7 +10650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1968767248
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11363,7 +11372,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2045453280
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11667,7 +11676,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2135306690
 RectTransform:
   m_ObjectHideFlags: 0

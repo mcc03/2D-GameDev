@@ -53,10 +53,12 @@ public class EnemySpawner : MonoBehaviour
         if(currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0 && !isWaveActive) // checks if wave has ended and the next wave should start
         {
             StartCoroutine(BeginNextWave());
+            Debug.Log("NextWaveShouldStart");
         }
 
         spawnTimer += Time.deltaTime;
 
+        //Debug.Log(currentWaveCount);
 
         // check if its time to spawn the next enemy  
         if(spawnTimer >= waves[currentWaveCount].spawnInterval) 
@@ -78,7 +80,10 @@ public class EnemySpawner : MonoBehaviour
             isWaveActive = false;
             currentWaveCount++;
             CalculateWaveQuota();
+            Debug.Log("NextWaveStartIsFalse");
         }
+
+        Debug.Log("NextWaveCalled");
     }
 
     void CalculateWaveQuota()
