@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1062661dc88c044fa59a7183d367998, type: 3}
+  m_Name: Prism Weapon Level 2
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 418700549005445944, guid: abdbcaf8e67e6b441a375ae0758647ce, type: 3}
+  damage: 3
+  speed: 8
+  cooldownDuration: 4
+  pierce: 5
+  level: 2
+  nextLevelPrefab: {fileID: 0}
+  name: Prism
+  description: Bounces against surfaces
+  icon: {fileID: 2002409062, guid: ed5dcaf09fbb7204ca45c96cada0f6aa, type: 3}
