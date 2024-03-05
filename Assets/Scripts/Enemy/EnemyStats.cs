@@ -26,6 +26,12 @@ public class EnemyStats : MonoBehaviour
     //allows us to damage the enemy
     public void TakeDamage(float dmg)
     {
+        // create text popup when enemy takes damage
+        if (dmg > 0)
+        {
+            GameManager.GenerateFloatingText(Mathf.FloorToInt(dmg).ToString(), transform);
+        }
+
         currentHealth -= dmg;
 
         if(currentHealth <= 0)

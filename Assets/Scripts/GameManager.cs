@@ -22,6 +22,12 @@ public class GameManager : MonoBehaviour
     // store previous state
     public GameState previousState;
 
+    [Header("Damage Text Settings")]
+    public Canvas damageTextCanvas;
+    public float textFontSize = 20;
+    public TMP_FontAsset textFont;
+    public Camera referenceCamera;
+
     [Header("Screens")]
     public GameObject pauseScreen;
     public GameObject resultsScreen;
@@ -114,6 +120,56 @@ public class GameManager : MonoBehaviour
                     Debug.LogWarning("State does not exist");
                     break;
         }
+    }
+
+    IEnumerator GenerateFloatingTextCoroutine(string text, Transform target, float duration = 1f, float speed = 50f)
+    {
+        // start generating floating text
+        GameObject textObj = new GameObject("Floating Damage Text");
+        RectTransform rect = textObj.AddComponent<RectTransform>();
+        TextMeshProUGUI tmPro = textObj.AddComponent<TextMeshProUGUI>();
+        tmPro.text = text;
+        tmPro.horizontalAlignment = HorizontalAlignmentOptions.Center;
+        tmPro.verticalAlignment = VerticalAlignmentOptions.Middle;
+        tmPro.fontSize = textFontSize;
+        if (textFont) tmPro.font = textFont;
+        rect.position = referenceCamera.WorldToScreenPoint(target.position);
+
+        // destroy text object after duration
+        Destroy(textObj, duration);
+
+        // parent text object to canvas
+        textObj.transform.SetParent(instance.damageTextCanvas.transform);
+
+        // move text upwards and fade away
+        WaitForEndOfFrame w = new WaitForEndOfFrame();
+        float t = 0;
+        float yOffset = 0;
+        while(t < duration)
+        {
+
+            // wait for a frame and update time
+            yield return w;
+            t += Time.deltaTime;
+
+            // fading the text
+            tmPro.color = new Color(tmPro.color.r, tmPro.color.g, tmPro.color.b, 1 - t / duration);
+
+            // move the text upwards
+            yOffset += speed * Time.deltaTime;
+            rect.position = referenceCamera.WorldToScreenPoint(target.position + new Vector3(0, yOffset));
+        }
+    }
+
+    public static void GenerateFloatingText(string text, Transform target, float duration = 1f, float speed = 1f)
+    {
+        // if there is no canvas, don't generate text
+        if(!instance.damageTextCanvas) return;
+
+        // find camera so text appears in the right space
+        if(!instance.referenceCamera) instance.referenceCamera = Camera.main;
+
+        instance.StartCoroutine(instance.GenerateFloatingTextCoroutine(text, target, duration, speed));
     }
 
     // method to change state of the game
