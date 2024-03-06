@@ -56,6 +56,7 @@ public class EnemySpawner : MonoBehaviour
         }
 
         spawnTimer += Time.deltaTime;
+        Debug.Log(currentWaveCount);
 
 
         // check if its time to spawn the next enemy  

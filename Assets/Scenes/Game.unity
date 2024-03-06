@@ -3271,8 +3271,8 @@ MonoBehaviour:
   waves:
   - waveName: wave1
     enemyGroups:
-    - enemyName: bat
-      enemyCount: 50
+    - enemyName: blank uselesss
+      enemyCount: 0
       spawnCount: 0
       enemyPrehab: {fileID: 2350895254006300732, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
     waveQuota: 0
@@ -3293,6 +3293,15 @@ MonoBehaviour:
       enemyCount: 25
       spawnCount: 0
       enemyPrehab: {fileID: 2350895254006300732, guid: 485e3d7053a44294eae24edc5658ab5f, type: 3}
+    waveQuota: 0
+    spawnInterval: 1
+    spawnCount: 0
+  - waveName: wave4
+    enemyGroups:
+    - enemyName: bat
+      enemyCount: 25
+      spawnCount: 0
+      enemyPrehab: {fileID: 2350895254006300732, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
