@@ -5,6 +5,10 @@ using LootLocker.Requests;
 
 public class GameManagerLL : MonoBehaviour
 {
+
+    public string playerID = "";
+
+
     void Start()
     {
         LootLockerSDKManager.StartGuestSession((response) =>
@@ -17,13 +21,14 @@ public class GameManagerLL : MonoBehaviour
             }
 
             Debug.Log("successfully started LootLocker session");
+            playerID = response.player_id.ToString();
             Debug.Log(response.player_id.ToString());
-            testSubmitLeaderboard(response.player_id.ToString(), 1000);
+            //TestSubmitLeaderboard(response.player_id.ToString(), 1000);
         });
         
     }
 
-    void testSubmitLeaderboard(string playerID, int playerScore){
+    public void TestSubmitLeaderboard(){
 
         string leaderboardID = "top_players";
         int count = 50;
@@ -40,21 +45,27 @@ public class GameManagerLL : MonoBehaviour
         });
 
         Debug.Log("Submitting score");
-        string memberID = playerID;
-        int score = playerScore;
+        int score = EnemyStats.playerScoreKills; // setting score
         string metadata = Application.systemLanguage.ToString();
 
-        LootLockerSDKManager.SubmitScore(memberID, score, leaderboardID, (response) =>
+        LootLockerSDKManager.SubmitScore(playerID, score, leaderboardID, (response) =>
         {
             if (response.statusCode == 200) {
-                Debug.Log("Successfully submitted score");
+                Debug.Log("Successfully submitted score of " + score);
             } else {
                 Debug.Log("Error submitting score:" + response.errorData.message);
             }
         });
     }
 
+    public void TestOnClick()
+    {
+        Debug.Log("Clicked from results screen");
+    }
 
-
-
+    // unity onClick functions can only contain one parameter, this is why this function exists
+    public void SubmitScoreOnClick()
+    {
+        TestSubmitLeaderboard();
+    }
 }

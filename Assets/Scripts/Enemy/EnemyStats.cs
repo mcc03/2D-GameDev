@@ -16,6 +16,8 @@ public class EnemyStats : MonoBehaviour
     [HideInInspector]
     public float currentDamage;
 
+    public static int playerScoreKills = 0;
+
     void Awake()
     {
         currentMoveSpeed = enemyData.MoveSpeed;
@@ -43,6 +45,9 @@ public class EnemyStats : MonoBehaviour
     public void Kill()
     {
         Destroy(gameObject);
+
+        playerScoreKills++;
+        Debug.Log("Current Score: " + playerScoreKills);
     }
 
     //enemy will deal damager to player when their collider is touching the players' collider
