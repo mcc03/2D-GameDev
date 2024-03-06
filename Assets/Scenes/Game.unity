@@ -3278,9 +3278,27 @@ MonoBehaviour:
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
+  - waveName: wave2
+    enemyGroups:
+    - enemyName: Skeleton
+      enemyCount: 25
+      spawnCount: 0
+      enemyPrehab: {fileID: 7514704203492166761, guid: b89271febf9a56645bc73505861f3d60, type: 3}
+    waveQuota: 0
+    spawnInterval: 1
+    spawnCount: 0
+  - waveName: wave3
+    enemyGroups:
+    - enemyName: cheeseBat
+      enemyCount: 25
+      spawnCount: 0
+      enemyPrehab: {fileID: 2350895254006300732, guid: 485e3d7053a44294eae24edc5658ab5f, type: 3}
+    waveQuota: 0
+    spawnInterval: 1
+    spawnCount: 0
   currentWaveCount: 0
   enemiesAlive: 0
-  maxEnemiesAllowed: 100
+  maxEnemiesAllowed: 101
   maxEnemiesReached: 0
   waveInterval: 3
   relativesSpawnPoints:

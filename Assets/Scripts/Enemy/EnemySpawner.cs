@@ -103,25 +103,21 @@ public class EnemySpawner : MonoBehaviour
                 // check if the minimum number of enemies of this type been spawned
                 if(enemyGroup.spawnCount < enemyGroup.enemyCount)
                 {
-                    // Limit the number of enemies that can be spawned at once
-                    if(enemiesAlive >= maxEnemiesAllowed)
-                    {
-                        maxEnemiesReached = true;
-                        return;
-                    }
                     // spawns the enemies at random positions close to the player
                     Instantiate(enemyGroup.enemyPrehab, player.position + relativesSpawnPoints[Random.Range(0, relativesSpawnPoints.Count)].position,Quaternion.identity);
 
                     enemyGroup.spawnCount++;
                     waves[currentWaveCount].spawnCount++;
                     enemiesAlive++;
+
+                    // Limit the number of enemies that can be spawned at once
+                    if(enemiesAlive >= maxEnemiesAllowed)
+                    {
+                        maxEnemiesReached = true;
+                        return;
+                    }
                 }
             }
-        }
-        // Resetb the maxEnemiesReached flag if the number of enemies alive has drop below the maximum amount
-        if(enemiesAlive < maxEnemiesAllowed)
-        {
-            maxEnemiesReached = false;
         }
     }
     // Call this function when an enemy is killed
@@ -129,5 +125,10 @@ public class EnemySpawner : MonoBehaviour
    {
     //Decrement the number of enemies alive
     enemiesAlive--;
+  // Resetb the maxEnemiesReached flag if the number of enemies alive has drop below the maximum amount
+        if(enemiesAlive < maxEnemiesAllowed)
+        {
+            maxEnemiesReached = false;
+        }
    }
 }
