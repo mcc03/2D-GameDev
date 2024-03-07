@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyStats : MonoBehaviour
 {
+    // reference
+    private KillCounter kc;
+
     //reference for enemy scriptable object
     public EnemyScriptableObject enemyData;
 
@@ -23,6 +26,11 @@ public class EnemyStats : MonoBehaviour
         currentMoveSpeed = enemyData.MoveSpeed;
         currentHealth = enemyData.MaxHealth;
         currentDamage = enemyData.Damage;
+    }
+
+    private void Start()
+    {
+        kc = GameObject.Find("KCO").GetComponent<KillCounter>();
     }
 
     //allows us to damage the enemy
@@ -48,6 +56,9 @@ public class EnemyStats : MonoBehaviour
 
         playerScoreKills++;
         Debug.Log("Current Score: " + playerScoreKills);
+
+        kc.AddKill(); // update count
+        kc.ShowKills(); // display count
     }
 
     //enemy will deal damager to player when their collider is touching the players' collider
