@@ -2,4 +2,4 @@
 2. Make layer 'Terrain' assign this to TerrainChunk and apply to children
 
 curernt bugs:
-tiles not being generated automatically, you have to walk onto an empty tile and drag a chunk into the current chunk field
+adding new weapons doesn't seem to work with the upgrade UI options
