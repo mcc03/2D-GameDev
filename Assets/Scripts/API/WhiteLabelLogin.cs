@@ -19,12 +19,13 @@ public class WhiteLabelLogin : MonoBehaviour
 
     public Text infoText;
 
-    GameObject continueButton;
+    [Header("Button")]
+    public GameObject continueButton;
 
     private void Awake()
     {
-        LootLockerSettingsOverrider.OverrideSettings();
-        GameObject continueButton = GameObject.Find("ContinueButton");
+        //LootLockerSettingsOverrider.OverrideSettings();
+        continueButton = GameObject.Find("ContinueButton");
     }
 
     // Called when pressing "Log in"
@@ -34,6 +35,10 @@ public class WhiteLabelLogin : MonoBehaviour
         string password = existingUserPasswordInputField.text;
         LootLockerSDKManager.WhiteLabelLogin(email, password, false, loginResponse =>
         {
+            Debug.Log("--------------------------------------------------");
+            infoText.text = "test";
+            Debug.Log("-------------------------------------------------------");
+
             if (!loginResponse.success)
             {
                 // Error
@@ -44,7 +49,7 @@ public class WhiteLabelLogin : MonoBehaviour
             }
             else
             {
-                infoText.text = "Player was logged in succesfully";
+                infoText.text = "testing123";
             }
             if (continueButton != null)
             {
@@ -55,7 +60,6 @@ public class WhiteLabelLogin : MonoBehaviour
             {
                 Debug.LogWarning("Continue Button not found.");
             }
-
 
             // Is the account verified?
             if (loginResponse.VerifiedAt == null)
@@ -103,39 +107,40 @@ public class WhiteLabelLogin : MonoBehaviour
         });
     }
 
-    public void ResendVerificationEmail()
-    {
-        // Player ID can be retrieved when starting a session or creating an account.
-        int playerID = 0;
-        // Request a verification email to be sent to the registered user, 
-        LootLockerSDKManager.WhiteLabelRequestVerification(playerID, (response) =>
-        {
-            if(response.success)
-            {
-                Debug.Log("Verification email sent!");
-            }
-            else
-            {
-                Debug.Log("Error sending verification email:" + response.errorData.message);
-            }
+    // verification
+    // public void ResendVerificationEmail()
+    // {
+    //     // Player ID can be retrieved when starting a session or creating an account.
+    //     int playerID = 0;
+    //     // Request a verification email to be sent to the registered user, 
+    //     LootLockerSDKManager.WhiteLabelRequestVerification(playerID, (response) =>
+    //     {
+    //         if(response.success)
+    //         {
+    //             Debug.Log("Verification email sent!");
+    //         }
+    //         else
+    //         {
+    //             Debug.Log("Error sending verification email:" + response.errorData.message);
+    //         }
 
-        });
-    }
+    //     });
+    // }
 
-    public void SendResetPassword()
-    {
-        // Sends a password reset-link to the email
-        LootLockerSDKManager.WhiteLabelRequestPassword("email@email-provider.com", (response) =>
-        {
-            if(response.success)
-            {
-                Debug.Log("Password reset link sent!");
-            }
-            else
-            {
-                Debug.Log("Error sending password-reset-link:" + response.errorData.message);
-            }
-        });
-    }
+    // public void SendResetPassword()
+    // {
+    //     // Sends a password reset-link to the email
+    //     LootLockerSDKManager.WhiteLabelRequestPassword("email@email-provider.com", (response) =>
+    //     {
+    //         if(response.success)
+    //         {
+    //             Debug.Log("Password reset link sent!");
+    //         }
+    //         else
+    //         {
+    //             Debug.Log("Error sending password-reset-link:" + response.errorData.message);
+    //         }
+    //     });
+    // }
 }
 }

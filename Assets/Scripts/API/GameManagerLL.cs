@@ -6,7 +6,7 @@ using LootLocker.Requests;
 public class GameManagerLL : MonoBehaviour
 {
 
-    public string playerID = "";
+    public string playerID = "Player0001";
 
 
     void Start()
