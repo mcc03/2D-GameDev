@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ecedf28ec0f8c74cb41eb26dd605e0e, type: 3}
+  m_Name: Projectile Speed Passive Item Level 2
+  m_EditorClassIdentifier: 
+  multiplier: 15
+  level: 2
+  nextLevelPrefab: {fileID: 0}
+  name: Proj Speed 2
+  description: Increased Projectile Speed 2
+  icon: {fileID: -840042851, guid: efd810b406310b44a85dd21afbd250bf, type: 3}

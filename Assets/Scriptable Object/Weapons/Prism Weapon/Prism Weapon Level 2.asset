@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Prism Weapon Level 2
   m_EditorClassIdentifier: 
   prefab: {fileID: 418700549005445944, guid: abdbcaf8e67e6b441a375ae0758647ce, type: 3}
-  damage: 3
+  damage: 5
   speed: 8
   cooldownDuration: 4
-  pierce: 5
+  pierce: 7
   level: 2
   nextLevelPrefab: {fileID: 0}
-  name: Prism
+  name: Prism Level 2
   description: Bounces against surfaces
   icon: {fileID: 2002409062, guid: ed5dcaf09fbb7204ca45c96cada0f6aa, type: 3}

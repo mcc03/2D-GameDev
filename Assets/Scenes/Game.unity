@@ -3440,11 +3440,11 @@ MonoBehaviour:
   - waveName: Wave 1
     enemyGroups:
     - enemyName: bat
-      enemyCount: 10
+      enemyCount: 0
       spawnCount: 0
       enemyPrehab: {fileID: 2350895254006300732, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
     waveQuota: 0
-    spawnInterval: 2
+    spawnInterval: 0
     spawnCount: 0
   - waveName: Wave 2
     enemyGroups:
@@ -3453,7 +3453,16 @@ MonoBehaviour:
       spawnCount: 0
       enemyPrehab: {fileID: 2350895254006300732, guid: cc70f4d5b13a413449f18cbe900dffc7, type: 3}
     waveQuota: 0
-    spawnInterval: 5
+    spawnInterval: 1
+    spawnCount: 0
+  - waveName: Wave 3
+    enemyGroups:
+    - enemyName: bat
+      enemyCount: 30
+      spawnCount: 0
+      enemyPrehab: {fileID: 2350895254006300732, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.5
     spawnCount: 0
   currentWaveCount: 0
   enemiesAlive: 0
@@ -4420,16 +4429,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 25372230}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: SceneChange
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Title Scene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &838500770
@@ -7933,6 +7942,12 @@ MonoBehaviour:
   - passiveItemUpgradeIndex: 1
     initialPassiveItem: {fileID: 5515593853720398718, guid: 5e4971a5a8f1ac24599798954ca0d215, type: 3}
     passiveItemData: {fileID: 11400000, guid: b41709bc3adcbda49ae35f372efdfadf, type: 2}
+  - passiveItemUpgradeIndex: 2
+    initialPassiveItem: {fileID: 3271602385488222673, guid: d63127e70d415914085371fc81f0aaff, type: 3}
+    passiveItemData: {fileID: 11400000, guid: 88e5bfcab89163f4daa7d93d5c492303, type: 2}
+  - passiveItemUpgradeIndex: 3
+    initialPassiveItem: {fileID: 5515593853720398718, guid: 6679ee408f9599a44a9383309fbf357b, type: 3}
+    passiveItemData: {fileID: 11400000, guid: 8e41dca6344a7b5449f9b705248b775a, type: 2}
   upgradeUIOptions:
   - upgradeNameDisplay: {fileID: 1136789226}
     UpgradeDescriptionDisplay: {fileID: 2024329771}
