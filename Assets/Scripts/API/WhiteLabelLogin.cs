@@ -38,6 +38,7 @@ public class WhiteLabelLogin : MonoBehaviour
             Debug.Log("--------------------------------------------------");
             infoText.text = "test";
             Debug.Log("-------------------------------------------------------");
+            //AssignName();
 
             if (!loginResponse.success)
             {
@@ -106,6 +107,21 @@ public class WhiteLabelLogin : MonoBehaviour
             }
         });
     }
+
+    public void AssignName()
+    {
+        LootLockerSDKManager.SetPlayerName(existingUserEmailInputField.text.ToString(), (response) =>
+        {
+            if (response.success)
+            {
+                Debug.Log("Successfully set player name");
+            } else
+            {
+                Debug.Log("Error setting player name");
+            }
+        });
+    }
+
 
     // verification
     // public void ResendVerificationEmail()

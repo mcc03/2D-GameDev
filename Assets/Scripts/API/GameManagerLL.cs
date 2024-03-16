@@ -9,24 +9,24 @@ public class GameManagerLL : MonoBehaviour
     public string playerID = "Player0001";
 
 
-    void Start()
-    {
-        LootLockerSDKManager.StartGuestSession((response) =>
-        {
-            if (!response.success)
-            {
-                Debug.Log("error starting LootLocker session");
+    // void Start()
+    // {
+    //     LootLockerSDKManager.StartGuestSession((response) =>
+    //     {
+    //         if (!response.success)
+    //         {
+    //             Debug.Log("error starting LootLocker session");
                 
-                return;
-            }
+    //             return;
+    //         }
 
-            Debug.Log("successfully started LootLocker session");
-            playerID = response.player_id.ToString();
-            Debug.Log(response.player_id.ToString());
-            //TestSubmitLeaderboard(response.player_id.ToString(), 1000);
-        });
+    //         Debug.Log("successfully started LootLocker session");
+    //         playerID = response.player_id.ToString();
+    //         Debug.Log(response.player_id.ToString());
+    //         //TestSubmitLeaderboard(response.player_id.ToString(), 1000);
+    //     });
         
-    }
+    // }
 
     public void TestSubmitLeaderboard(){
 
