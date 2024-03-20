@@ -50,7 +50,7 @@ public class WhiteLabelLogin : MonoBehaviour
             }
             else
             {
-                infoText.text = "testing123";
+                infoText.text = "Logging in...";
             }
             if (continueButton != null)
             {
@@ -69,7 +69,15 @@ public class WhiteLabelLogin : MonoBehaviour
                 // verification must also be enabled on the LootLocker dashboard
             }
 
-            // Player is logged in, now start a game session
+            startSession(email);
+            //AssignName(email);
+            
+        });
+    }
+
+    public void startSession(string playerName = null)
+    {
+        // Player is logged in, now start a game session
             LootLockerSDKManager.StartWhiteLabelSession((startSessionResponse) =>
             {
                 if (startSessionResponse.success)
@@ -77,6 +85,10 @@ public class WhiteLabelLogin : MonoBehaviour
                     // Session was succesfully started;
                     // After this you can use LootLocker features
                     infoText.text = "Session started successfully";
+                    if(playerName != null){
+                        AssignName(playerName);
+                    }
+                    
                 }
                 else
                 {
@@ -84,7 +96,6 @@ public class WhiteLabelLogin : MonoBehaviour
                     infoText.text = "Error starting LootLocker session:" + startSessionResponse.errorData.message;
                 }
             });
-        });
     }
 
     // Called when pressing "Create account"
@@ -98,19 +109,22 @@ public class WhiteLabelLogin : MonoBehaviour
             if (!response.success)
             {
                 infoText.text = "Error signing up:"+response.errorData.message;
+
                 return;
             }
             else
             {
                 // Succesful response
+                // AssignName(existingUserEmailInputField.text.ToString());
+                startSession(email);
                 infoText.text = "Account created";
             }
         });
     }
 
-    public void AssignName()
+    public void AssignName(string name)
     {
-        LootLockerSDKManager.SetPlayerName(existingUserEmailInputField.text.ToString(), (response) =>
+        LootLockerSDKManager.SetPlayerName(name, (response) =>
         {
             if (response.success)
             {

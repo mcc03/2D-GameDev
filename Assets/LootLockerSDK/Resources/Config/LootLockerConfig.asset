@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: LootLockerConfig
   m_EditorClassIdentifier: 
   apiKey: dev_55cf6cec9f4c4a578862c072c4fc2073
-  token: d856e408185047f9a18aaca202ab1f46bc616076
+  token: 
   adminToken: 
   refreshToken: 
   domainKey: dw6da5av
   gameID: 0
   game_version: 1.0.0.0
-  sdk_version: 2.1.2
+  sdk_version: 2.1.3
   deviceID: 
   url: https://api.lootlocker.io/v1
   adminUrl: https://dw6da5av.api.lootlocker.io/admin
