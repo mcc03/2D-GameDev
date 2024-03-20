@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c087b532437db24ca4d93245279acd4, type: 3}
   m_Name: Cheese Bat
   m_EditorClassIdentifier: 
-  moveSpeed: 8
-  maxHealth: 10
-  damage: 500
+  moveSpeed: 2
+  maxHealth: 30
+  damage: 60

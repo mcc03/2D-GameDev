@@ -167,7 +167,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8661faddaa07b78459c5766b019e0111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drops: []
+  drops:
+  - name: Blue Gem
+    itemPrefab: {fileID: 8661467440491389818, guid: 0be0632be09d1d8409c1272bdee4454f, type: 3}
+    dropRate: 50
 --- !u!114 &4492696353914421431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,7 +194,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7514704203492166761}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f147dbcc609c63941b98dd2597786542, type: 3}
   m_Name: 
