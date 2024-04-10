@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//[RequireComponent(typeof(SpriteRenderer))]
+
 public class EnemyStats : MonoBehaviour
 {
     // reference
     private KillCounter kc;
-
     //reference for enemy scriptable object
     public EnemyScriptableObject enemyData;
-
     //variables for enemy scriptable object
     //current stats
     [HideInInspector]
@@ -18,8 +18,11 @@ public class EnemyStats : MonoBehaviour
     public float currentHealth;
     [HideInInspector]
     public float currentDamage;
-
     public static int playerScoreKills = 0;
+    public float despawnDistance = 20f;
+    Transform player;
+    
+
 
     void Awake()
     {

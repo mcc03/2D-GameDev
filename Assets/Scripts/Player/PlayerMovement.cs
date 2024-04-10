@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Terresquall;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -46,10 +47,19 @@ public class PlayerMovement : MonoBehaviour
         {
             return;
         }
+        float moveX,moveY;
+        if(VirtualJoystick.CountActiveInstances() > 0)
+        {
+            moveX = VirtualJoystick.GetAxis("Horizontal");
+            moveY = VirtualJoystick.GetAxis("Vertical");
 
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
-
+        }
+        else
+        {
+            moveX = Input.GetAxisRaw("Horizontal");
+            moveY = Input.GetAxisRaw("Vertical");
+        }
+       
         moveDir = new Vector2(moveX, moveY).normalized;
 
         if(moveDir.x !=0)
