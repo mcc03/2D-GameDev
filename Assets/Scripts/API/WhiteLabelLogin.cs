@@ -116,8 +116,9 @@ public class WhiteLabelLogin : MonoBehaviour
             {
                 // Succesful response
                 // AssignName(existingUserEmailInputField.text.ToString());
-                startSession(email);
+                
                 infoText.text = "Account created";
+                startSession(email);
             }
         });
     }
