@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8503754469814537721}
   - component: {fileID: 2580088678315689601}
   - component: {fileID: -109236099405999889}
+  - component: {fileID: 1038613144881154070}
   m_Layer: 0
   m_Name: Bat Rare
   m_TagString: Enemy
@@ -163,7 +164,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2350895254006300732}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f147dbcc609c63941b98dd2597786542, type: 3}
   m_Name: 
@@ -207,9 +208,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2350895254006300732}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af3a23d8e1fe60f45a728e5dbf24102a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   stopDistance: 2
+--- !u!114 &1038613144881154070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2350895254006300732}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e60fec742f98f48a98f486b618497b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

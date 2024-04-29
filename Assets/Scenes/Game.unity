@@ -3465,6 +3465,15 @@ MonoBehaviour:
     waveQuota: 0
     spawnInterval: 0.5
     spawnCount: 0
+  - waveName: Wave
+    enemyGroups:
+    - enemyName: steel golem
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrehab: {fileID: 282732592985684021, guid: 42094a29b93c2c749b8ffa0d83c35fab, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.5
+    spawnCount: 0
   currentWaveCount: 0
   enemiesAlive: 0
   maxEnemiesAllowed: 20
