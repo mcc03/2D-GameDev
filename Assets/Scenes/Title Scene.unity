@@ -1579,7 +1579,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ROGUELITE
+  m_text: ROGUE REVIVAL
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e52cafb6233ed004a9586fa7be3a3874, type: 2}
   m_sharedMaterial: {fileID: -4480211600630232714, guid: e52cafb6233ed004a9586fa7be3a3874, type: 2}
