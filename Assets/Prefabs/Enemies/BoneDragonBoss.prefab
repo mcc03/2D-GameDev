@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 136328989813344660}
   - component: {fileID: 2807904014330115212}
   - component: {fileID: 6024094361087415}
+  - component: {fileID: 3292416420356515343}
   m_Layer: 0
   m_Name: BoneDragonBoss
   m_TagString: Enemy
@@ -78,12 +79,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -477255197, guid: bc3681580f0c45a4aadf703c9116e4b5, type: 3}
+  m_Sprite: {fileID: -639874340, guid: 793b4109bbf02b14581bb1767c078a17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.11, y: 0.96}
+  m_Size: {x: 1.69, y: 0.65}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -147,13 +148,13 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1.69, y: 0.65}
-    newSize: {x: 1.11, y: 0.96}
+    newSize: {x: 1.69, y: 0.65}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6, y: 0.73}
+  m_Size: {x: 1.6, y: 1.4}
   m_EdgeRadius: 0
 --- !u!114 &136328989813344660
 MonoBehaviour:
@@ -199,3 +200,15 @@ MonoBehaviour:
   - name: blue gm
     itemPrefab: {fileID: 8661467440491389818, guid: 0be0632be09d1d8409c1272bdee4454f, type: 3}
     dropRate: 1
+--- !u!114 &3292416420356515343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852636218998068782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f147dbcc609c63941b98dd2597786542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

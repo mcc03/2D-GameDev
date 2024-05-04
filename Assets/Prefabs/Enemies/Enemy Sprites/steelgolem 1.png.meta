@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,7 +121,2737 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: steelgolem 1_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 492
+        width: 38
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d548604920f1784c88118be5c23abbc
+      internalID: 581850346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 492
+        width: 37
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1d3397eed1dd441b61e3e6c9eb23d6
+      internalID: 1884803987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 492
+        width: 37
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42927977f46a3f7408bf1838e8ec8401
+      internalID: 448700509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_3
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 492
+        width: 38
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a91b30dccab2242bdb66b2c0c87c61
+      internalID: 1357323627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_4
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 492
+        width: 38
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081b8ecba615ece4f847fdd03b92146a
+      internalID: -466722630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_5
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 492
+        width: 37
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8535f26918e70834aa9acd5c406ac541
+      internalID: -133222969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_6
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 492
+        width: 37
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0365547b5a419ea4d8df80f0c24d0988
+      internalID: 1884803072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 395
+        width: 38
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a44103a1dea0e24eae163468618444d
+      internalID: 1380025927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 395
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc75f1fd287b40540aa11453756b1e50
+      internalID: 1204535522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 395
+        width: 34
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237c7189c94863e4798c30228c695916
+      internalID: 694985917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_10
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 395
+        width: 37
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932fd415c79efca4c97ac15271c1f10c
+      internalID: -1702221806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_11
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 395
+        width: 37
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173103cc4d2c63b409ac93a2b02f9f8a
+      internalID: -595292534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 395
+        width: 40
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc220bea462bf1c42b9ef45c5e83fcf4
+      internalID: 1867882000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_13
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 395
+        width: 37
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c2ddfe2109f3a41b8770de86b6c28f
+      internalID: -216337533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_14
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 395
+        width: 35
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483ec16987373b84893e2c11ab7bf713
+      internalID: 251712846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_15
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 395
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce2ef2c7d916de40b80cd5601c41ba7
+      internalID: 64840399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_16
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 395
+        width: 35
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4dc8ca6bf7ff545a71c3c1466129a9
+      internalID: 1184990137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_17
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 395
+        width: 37
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e60e199ad90e947a2e9f6ad643634c
+      internalID: 1902057952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_18
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 294
+        width: 39
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d49edff7364d34fb75298f7c720cfd
+      internalID: 1569923380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 294
+        width: 35
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed8ec2ccd126b94ca5a8b7e360ad9b8
+      internalID: -1847290508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_20
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 294
+        width: 35
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d187cd2ee6c28645a93acd6d7cf1fd5
+      internalID: 1237448639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_21
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 294
+        width: 47
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbabdf212da19f4291116c94ae247d7
+      internalID: 1653845336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_22
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 325
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b95f5fc7b52c6438a5c45c42b1c6cc
+      internalID: 482423329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_23
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 325
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb23a541700006409c3ec900ffb50c0
+      internalID: -1032035592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_24
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 325
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d41e5164dbf4f4aa8a4cc2ea645679
+      internalID: 752010819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_25
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 325
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882dba77a4d00674388441d0f14dca83
+      internalID: -1429005574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_26
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 198
+        width: 39
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f570a9c714c0d428dfe60d925c6d2a
+      internalID: -238517231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_27
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 198
+        width: 41
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6893d136688dfaf4486a5c760a976a58
+      internalID: -486648676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_28
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 198
+        width: 47
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae93acc3cdf41da4c9cfe2530401d200
+      internalID: 683121714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_29
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 198
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcc4ed44fb243b40acec7904dadc1de
+      internalID: -486915519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 198
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebc796d084519b48873cd04c2be50f4
+      internalID: -366452118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_31
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 263
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90df938f42552c94bb6a5d4abb465f6a
+      internalID: -2117976363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_32
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 263
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936894bbf82c1164e89256ecc8288a08
+      internalID: 1717407984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_33
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 263
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432d62cef5e49054cb23206d5e96db35
+      internalID: -723237950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_34
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 263
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6fb2dd51773db43a4ad5618f279869
+      internalID: -1464282222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_35
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 99
+        width: 39
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26f9427994e38e4d85342e59bca3622
+      internalID: -1703244429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_36
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 99
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b108046cd1f96149a24b5f8c3ffa122
+      internalID: 867319233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_37
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 99
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0523d769ba79ead439f4137cab5065b9
+      internalID: 1050157510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_38
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 174
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd131f3e378f3b14b814baa889f056c7
+      internalID: 1713782112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_39
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 174
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c6fa81131c49f4184fae5a5e7db7b7
+      internalID: -1911723172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_40
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 174
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d493465b536b54c8c9ed7b49607ffc
+      internalID: -1432899550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_41
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 174
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b818ea98e55cb604ebc4a9808a773e58
+      internalID: 309453423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_42
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 174
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b98e12397f561438eead253c0a36d5
+      internalID: 2143594632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_43
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 174
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44072fbcfb93ab4194a318b33051c5f
+      internalID: 1364631933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_44
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 174
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ad6e84053dc7e4d8dbc2a59ffb8630
+      internalID: 2096971910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_45
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 174
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0eef4cccef516343a233f2eb8655374
+      internalID: -1975399940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_46
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 155
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620407b95f54a9e42aa0ea1e62576e17
+      internalID: 1015212799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_47
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 155
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f766dd2e7075ec4bb4296e310d7c2f6
+      internalID: -1158976979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_48
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 155
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a28699ac0dbf104cb5808a08c951793
+      internalID: -2064681057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_49
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 155
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cefbbeddad48341b8b973dbf982018
+      internalID: -346818860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_50
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 155
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938f5e920d8582c4c85542f59c61064a
+      internalID: -1138599600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_51
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 155
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d85c46918a0fc4c9a36f228ae2aff7
+      internalID: 1632682017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_52
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 155
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb73133751f3fc4a82fc2906d4635ff
+      internalID: -1836341878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_53
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 155
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316e9d17225f86e43b9b04d27baeb0a3
+      internalID: 485068109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_54
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 155
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2242515913f558479848e6e64ec613e
+      internalID: 1624422739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_55
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 152
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef31e85330fe6324aa80540dc4cba693
+      internalID: 920007107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_56
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 155
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45366860981fd564eac66cb53edfe506
+      internalID: 1700638456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_57
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 155
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158f650ae2079e345afc77eb87a9ee2f
+      internalID: -518428430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_58
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 155
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0075b54f61d39854bbccae9b7d0ac83d
+      internalID: -88343754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_59
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 155
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043d8d601ecefc1439d9e0b02e0e9276
+      internalID: 584065732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_60
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 155
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8721f162a88ef4d4faa75b56415e20e3
+      internalID: -935673707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_61
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 155
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28671c05dfb64924d898582d69aef93f
+      internalID: 773068584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_62
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 155
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec81d21b172ff847b7b1780e9c6d9fb
+      internalID: -435304582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_63
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 152
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36087c0b1e315da42afbbecf8413db9b
+      internalID: -1663410860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_64
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 155
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba12926e3ca8f848aebdf712ecce69f
+      internalID: -1574257823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_65
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 99
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208fe1ec95278b4429207805b9363e07
+      internalID: 1860974826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_66
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 139
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea8285f967557947bdbfde2fa637f65
+      internalID: -1223101577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_67
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 139
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcf220eb6a78414eb87fa4a9a8d842e
+      internalID: 130627341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_68
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 137
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88029780ccb6e94ea8b3ff8d0d951b8
+      internalID: -874768739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_69
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 139
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bddf95e635e88f4aa3893c3d4a040bc
+      internalID: 776796656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_70
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 139
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c123b85daca614ab0424bc93e246c6
+      internalID: 553587633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_71
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 139
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03d2a20792faf542a7197ced53194ff
+      internalID: 514659658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_72
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 136
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2f801f0242b7e42884b315cb79c180
+      internalID: 1024104293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_73
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 139
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0deb07d43da15d428b29e5f3f2ebcfc
+      internalID: -106765953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_74
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 139
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7de0e594330a942ae9b207352ea653
+      internalID: -85387560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_75
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 139
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07db9e684dc93040a11f04401d6560b
+      internalID: 1834014713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_76
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 139
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5220ac0f7593fd418cf53c5961d679e
+      internalID: -2100403711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_77
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 139
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69c7610023bef14282f4253d5e801e4
+      internalID: 972463094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_78
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 139
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034484250e390514894fb5451903e09e
+      internalID: 1765397177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_79
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 139
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39402677ea5c4b4fbf0b38d24f73059
+      internalID: -562570488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_80
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 139
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34891ca22188f9438ed6d6aa941b90c
+      internalID: -1804251928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_81
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 6
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40808f4f556ee4446b8ed10beb419913
+      internalID: -1243028191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_82
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 6
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dfd0e785d6c7345b4092959d71e0c3
+      internalID: -2065234122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_83
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 6
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d164cac329338443acfa8b72e3de503
+      internalID: 1026320878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_84
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 6
+        width: 38
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68193cdb9d14e924d853d0f61453d49b
+      internalID: 1029720751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_85
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 61
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa8f4c63bb4d3d4e98cecd8e6dc6700
+      internalID: -655812444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_86
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 58
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd71894eb833a1449cf26d9675fb842
+      internalID: -786563544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_87
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 58
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b82e59a659e1747a4abdf402a2edeb
+      internalID: 621941438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_88
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 61
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c41900b0cf0af14fb81a2b868369bcf
+      internalID: -164430247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_89
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 61
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac83332311e1e448a3be285b2453349
+      internalID: 157171147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_90
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 61
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705871713460e2247a58f9baccb1d3be
+      internalID: 204297951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_91
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 58
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16960e40b7cc32a4fa56b3b91d1650ce
+      internalID: 1400261548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_92
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 5
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9b10b64e98e134d8082516bebe3dea
+      internalID: 378716973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_93
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 7
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a3ab85889c1984980a505e86966264
+      internalID: -1152901013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_94
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 9
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4aaf0d4ebf5ab047be8fdb277d27bdd
+      internalID: -506409227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_95
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 40
+        width: 124
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d354cfea03c68c4691cb575be187ed6
+      internalID: 867844801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_96
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 43
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ac7f50025d6a649858bda9ed547135
+      internalID: 1230595301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_97
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 43
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018a38dd93f0653439fe8172611d9dc0
+      internalID: -1943164136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_98
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 43
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e23a68fbef91e44b4493b0e8071c02
+      internalID: -1173931604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_99
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 43
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea50b9de7435c144a36bab8a3dbd281
+      internalID: -1404718909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_100
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 13
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071ed7b72a30b284e8b0f6c69e0128c2
+      internalID: 1352243965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_101
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 11
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b158dd3a5809a45bf5d23ee8bce85f
+      internalID: -76536026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_102
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 27
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3cdd121bfc90548b3f271ba5dc14d3
+      internalID: -1905377007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_103
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 27
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f298d385814290649a5f1928f4577afd
+      internalID: -50401583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_104
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 27
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a863b171a471ce345a0c3a5fc11a7593
+      internalID: -1320561867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_105
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 27
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072bad392a15cee4d9e3d7627b092e0c
+      internalID: 1039946556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_106
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 24
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b75ce3b04ecb6644bf4d74d0437f1cb
+      internalID: -1988478913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_107
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 27
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99285e34f013a2c42a7a8b6e9841d1eb
+      internalID: -68539543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_108
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 27
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45672decfd936864fbd2744cc2f37f15
+      internalID: -1232221108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_109
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 27
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a3ffaa0e31f84488c94c6d04513545
+      internalID: -2082955242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_110
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d641aeab1fd6d624696c96e97a584cd7
+      internalID: 1551984145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_111
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 24
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d891771a840f5b94eb83fd9a7d152131
+      internalID: -1907635616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_112
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 27
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f956fb4678d22a4c9a09a494b6a1191
+      internalID: -1664335869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_113
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 27
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18113d923328c2748960bc5ecd785e38
+      internalID: -1976641414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_114
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 27
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eeabc69a3dc6364185526e18a1c0a7d
+      internalID: 1673537897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_115
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 27
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13edc6d409f8f945b6dec4396a06a4c
+      internalID: -2038967403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_116
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 27
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8d618504906204899e9d701bda3bfa
+      internalID: -207867396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_117
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 8
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca1e4eec5dc6544ca6f2a93db247272
+      internalID: 620393368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_118
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c78f6f63365fd4698d662752e0d3ba
+      internalID: -1914282669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_119
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5d58ae959bc5342b025286d6640f02
+      internalID: 859236790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_120
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 11
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402cf1fd0ec38954998d475f2b866040
+      internalID: 174728331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_121
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1a0a92e221b904b9ab69d6d4a613eb
+      internalID: -1782427950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_122
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 8
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c9894cd586c6649a05ba78ed5ef451
+      internalID: -888207730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_123
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2845cba41644ad44ab087adb18d0f75
+      internalID: -1239115447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_124
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3b4e6f27fb2f347883a840112c1c62
+      internalID: -193189605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_125
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9106096331ea604d9f0a232ddd258f7
+      internalID: 1765954091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_126
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a68637c39a3bd4d85a09130217f310
+      internalID: 519970963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_127
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b409a8d55a36a47babd95278d77510
+      internalID: -132515105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_128
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 11
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bdb789742441e4492e941dcfa188dd
+      internalID: -1295183734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steelgolem 1_129
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 11
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2349e48f8af7c7141b2690a5f700bc86
+      internalID: -1637197456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +2862,137 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      steelgolem 1_0: 581850346
+      steelgolem 1_1: 1884803987
+      steelgolem 1_10: -1702221806
+      steelgolem 1_100: 1352243965
+      steelgolem 1_101: -76536026
+      steelgolem 1_102: -1905377007
+      steelgolem 1_103: -50401583
+      steelgolem 1_104: -1320561867
+      steelgolem 1_105: 1039946556
+      steelgolem 1_106: -1988478913
+      steelgolem 1_107: -68539543
+      steelgolem 1_108: -1232221108
+      steelgolem 1_109: -2082955242
+      steelgolem 1_11: -595292534
+      steelgolem 1_110: 1551984145
+      steelgolem 1_111: -1907635616
+      steelgolem 1_112: -1664335869
+      steelgolem 1_113: -1976641414
+      steelgolem 1_114: 1673537897
+      steelgolem 1_115: -2038967403
+      steelgolem 1_116: -207867396
+      steelgolem 1_117: 620393368
+      steelgolem 1_118: -1914282669
+      steelgolem 1_119: 859236790
+      steelgolem 1_12: 1867882000
+      steelgolem 1_120: 174728331
+      steelgolem 1_121: -1782427950
+      steelgolem 1_122: -888207730
+      steelgolem 1_123: -1239115447
+      steelgolem 1_124: -193189605
+      steelgolem 1_125: 1765954091
+      steelgolem 1_126: 519970963
+      steelgolem 1_127: -132515105
+      steelgolem 1_128: -1295183734
+      steelgolem 1_129: -1637197456
+      steelgolem 1_13: -216337533
+      steelgolem 1_14: 251712846
+      steelgolem 1_15: 64840399
+      steelgolem 1_16: 1184990137
+      steelgolem 1_17: 1902057952
+      steelgolem 1_18: 1569923380
+      steelgolem 1_19: -1847290508
+      steelgolem 1_2: 448700509
+      steelgolem 1_20: 1237448639
+      steelgolem 1_21: 1653845336
+      steelgolem 1_22: 482423329
+      steelgolem 1_23: -1032035592
+      steelgolem 1_24: 752010819
+      steelgolem 1_25: -1429005574
+      steelgolem 1_26: -238517231
+      steelgolem 1_27: -486648676
+      steelgolem 1_28: 683121714
+      steelgolem 1_29: -486915519
+      steelgolem 1_3: 1357323627
+      steelgolem 1_30: -366452118
+      steelgolem 1_31: -2117976363
+      steelgolem 1_32: 1717407984
+      steelgolem 1_33: -723237950
+      steelgolem 1_34: -1464282222
+      steelgolem 1_35: -1703244429
+      steelgolem 1_36: 867319233
+      steelgolem 1_37: 1050157510
+      steelgolem 1_38: 1713782112
+      steelgolem 1_39: -1911723172
+      steelgolem 1_4: -466722630
+      steelgolem 1_40: -1432899550
+      steelgolem 1_41: 309453423
+      steelgolem 1_42: 2143594632
+      steelgolem 1_43: 1364631933
+      steelgolem 1_44: 2096971910
+      steelgolem 1_45: -1975399940
+      steelgolem 1_46: 1015212799
+      steelgolem 1_47: -1158976979
+      steelgolem 1_48: -2064681057
+      steelgolem 1_49: -346818860
+      steelgolem 1_5: -133222969
+      steelgolem 1_50: -1138599600
+      steelgolem 1_51: 1632682017
+      steelgolem 1_52: -1836341878
+      steelgolem 1_53: 485068109
+      steelgolem 1_54: 1624422739
+      steelgolem 1_55: 920007107
+      steelgolem 1_56: 1700638456
+      steelgolem 1_57: -518428430
+      steelgolem 1_58: -88343754
+      steelgolem 1_59: 584065732
+      steelgolem 1_6: 1884803072
+      steelgolem 1_60: -935673707
+      steelgolem 1_61: 773068584
+      steelgolem 1_62: -435304582
+      steelgolem 1_63: -1663410860
+      steelgolem 1_64: -1574257823
+      steelgolem 1_65: 1860974826
+      steelgolem 1_66: -1223101577
+      steelgolem 1_67: 130627341
+      steelgolem 1_68: -874768739
+      steelgolem 1_69: 776796656
+      steelgolem 1_7: 1380025927
+      steelgolem 1_70: 553587633
+      steelgolem 1_71: 514659658
+      steelgolem 1_72: 1024104293
+      steelgolem 1_73: -106765953
+      steelgolem 1_74: -85387560
+      steelgolem 1_75: 1834014713
+      steelgolem 1_76: -2100403711
+      steelgolem 1_77: 972463094
+      steelgolem 1_78: 1765397177
+      steelgolem 1_79: -562570488
+      steelgolem 1_8: 1204535522
+      steelgolem 1_80: -1804251928
+      steelgolem 1_81: -1243028191
+      steelgolem 1_82: -2065234122
+      steelgolem 1_83: 1026320878
+      steelgolem 1_84: 1029720751
+      steelgolem 1_85: -655812444
+      steelgolem 1_86: -786563544
+      steelgolem 1_87: 621941438
+      steelgolem 1_88: -164430247
+      steelgolem 1_89: 157171147
+      steelgolem 1_9: 694985917
+      steelgolem 1_90: 204297951
+      steelgolem 1_91: 1400261548
+      steelgolem 1_92: 378716973
+      steelgolem 1_93: -1152901013
+      steelgolem 1_94: -506409227
+      steelgolem 1_95: 867844801
+      steelgolem 1_96: 1230595301
+      steelgolem 1_97: -1943164136
+      steelgolem 1_98: -1173931604
+      steelgolem 1_99: -1404718909
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 7116419866182629029}
   - component: {fileID: 3868899114661582177}
   - component: {fileID: 8025370269131352301}
-  - component: {fileID: 8015217030127113463}
   - component: {fileID: 3967827099921289974}
   - component: {fileID: 2727973700671604992}
+  - component: {fileID: -7378126421068535006}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Enemy
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1839630297, guid: 486b4ca3c80b8ce4cb376ddccbd28e1e, type: 3}
+  m_Sprite: {fileID: 1690770877, guid: 23e90dd3a82099d4784268cf0437d850, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -155,18 +155,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.0001, y: 0.0001}
   m_EdgeRadius: 0
---- !u!114 &8015217030127113463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 622965054637499769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6e60fec742f98f48a98f486b618497b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3967827099921289974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,3 +187,15 @@ MonoBehaviour:
   - name: Blue Gem
     itemPrefab: {fileID: 8661467440491389818, guid: 0be0632be09d1d8409c1272bdee4454f, type: 3}
     dropRate: 0
+--- !u!114 &-7378126421068535006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622965054637499769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d65ea1717b5ba44fa30377bcda260df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
