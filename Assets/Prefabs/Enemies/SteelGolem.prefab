@@ -12,9 +12,14 @@ GameObject:
   - component: {fileID: 2177423421372815219}
   - component: {fileID: 7051260512503635357}
   - component: {fileID: -6102616529479405967}
+<<<<<<< HEAD
   - component: {fileID: -1195717746036305821}
   - component: {fileID: 1526149513528720099}
   - component: {fileID: 4449872164782609164}
+=======
+  - component: {fileID: 4449872164782609164}
+  - component: {fileID: -5190400991861907047}
+>>>>>>> ShemBranch6
   m_Layer: 0
   m_Name: SteelGolem
   m_TagString: Enemy
@@ -78,12 +83,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
   m_Sprite: {fileID: 1718133246, guid: e5709d8c8f5915e42ac5efbea8fddd41, type: 3}
+=======
+  m_Sprite: {fileID: 1884803072, guid: 197d3834862b69d4d857cd9abd2783c1, type: 3}
+>>>>>>> ShemBranch6
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
+<<<<<<< HEAD
   m_Size: {x: 0.41, y: 0.83}
+=======
+  m_Size: {x: 0.37, y: 0.84}
+>>>>>>> ShemBranch6
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -146,8 +159,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
     oldSize: {x: 0.41, y: 0.83}
     newSize: {x: 0.41, y: 0.83}
+=======
+    oldSize: {x: 0.37, y: 0.84}
+    newSize: {x: 0.37, y: 0.84}
+>>>>>>> ShemBranch6
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -155,6 +173,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.41, y: 0.83}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!114 &-1195717746036305821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,6 +203,8 @@ MonoBehaviour:
   currentMoveSpeed: 0
   currentHealth: 0
   currentDamage: 0
+=======
+>>>>>>> ShemBranch6
 --- !u!114 &4449872164782609164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,3 +221,19 @@ MonoBehaviour:
   - name: blue gem
     itemPrefab: {fileID: 8661467440491389818, guid: 0be0632be09d1d8409c1272bdee4454f, type: 3}
     dropRate: 0
+<<<<<<< HEAD
+=======
+--- !u!114 &-5190400991861907047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282732592985684021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff80f5781a6385a4c842f470b38b76a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stopDistance: 2
+>>>>>>> ShemBranch6

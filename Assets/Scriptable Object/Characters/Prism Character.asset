@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9a9756f2a3745747ae13340c20c6fe6, type: 3}
   m_Name: Prism Character
   m_EditorClassIdentifier: 
-  icon: {fileID: 2002409062, guid: ed5dcaf09fbb7204ca45c96cada0f6aa, type: 3}
+  icon: {fileID: -1132119157, guid: d45e4bb326e39ec458a0ccf1d1a6f014, type: 3}
   name: Prism
   startingWeapon: {fileID: 6849132073363068551, guid: 2e6976ce89580e144b518e31e13bbba3, type: 3}
   maxHealth: 100

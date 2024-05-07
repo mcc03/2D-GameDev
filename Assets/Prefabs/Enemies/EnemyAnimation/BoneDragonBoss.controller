@@ -12,7 +12,11 @@ AnimatorController:
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
+<<<<<<< HEAD
     m_StateMachine: {fileID: 8393396944836761004}
+=======
+    m_StateMachine: {fileID: 730329967208423460}
+>>>>>>> ShemBranch6
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -22,14 +26,22 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+<<<<<<< HEAD
 --- !u!1102 &4268437080367507695
+=======
+--- !u!1102 &485635000455823930
+>>>>>>> ShemBranch6
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: BDragonWalk
+=======
+  m_Name: BoneDragonWalk
+>>>>>>> ShemBranch6
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -42,13 +54,21 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< HEAD
   m_Motion: {fileID: 7400000, guid: dd3c322f3368fa440bf1fe2d9dc1b22a, type: 2}
+=======
+  m_Motion: {fileID: 7400000, guid: d2d59cf911724604294f173655e2646c, type: 2}
+>>>>>>> ShemBranch6
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+<<<<<<< HEAD
 --- !u!1107 &8393396944836761004
+=======
+--- !u!1107 &730329967208423460
+>>>>>>> ShemBranch6
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -58,7 +78,11 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
+<<<<<<< HEAD
     m_State: {fileID: 4268437080367507695}
+=======
+    m_State: {fileID: 485635000455823930}
+>>>>>>> ShemBranch6
     m_Position: {x: 200, y: 0, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
@@ -69,4 +93,8 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+<<<<<<< HEAD
   m_DefaultState: {fileID: 4268437080367507695}
+=======
+  m_DefaultState: {fileID: 485635000455823930}
+>>>>>>> ShemBranch6

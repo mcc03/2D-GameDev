@@ -78,12 +78,20 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
   m_Sprite: {fileID: -396091283, guid: f6e7f49ba5bbd74498fdf5c707c46477, type: 3}
+=======
+  m_Sprite: {fileID: 496031329, guid: c562500deb74486419139f70c98162c3, type: 3}
+>>>>>>> ShemBranch6
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
+<<<<<<< HEAD
   m_Size: {x: 0.51, y: 0.73}
+=======
+  m_Size: {x: 0.37, y: 0.66}
+>>>>>>> ShemBranch6
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -146,8 +154,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
     oldSize: {x: 0.33, y: 0.69}
     newSize: {x: 0.51, y: 0.73}
+=======
+    oldSize: {x: 0.37, y: 0.66}
+    newSize: {x: 0.37, y: 0.66}
+>>>>>>> ShemBranch6
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

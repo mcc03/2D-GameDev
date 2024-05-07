@@ -21,6 +21,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
+<<<<<<< HEAD
       value: {fileID: -861166037, guid: 49e83518c296e0c4a89849c577058cc3, type: 3}
     - time: 0.083333336
       value: {fileID: -691530525, guid: 49e83518c296e0c4a89849c577058cc3, type: 3}
@@ -36,6 +37,23 @@ AnimationClip:
       value: {fileID: 575798054, guid: 49e83518c296e0c4a89849c577058cc3, type: 3}
     - time: 0.5833333
       value: {fileID: 93174556, guid: 49e83518c296e0c4a89849c577058cc3, type: 3}
+=======
+      value: {fileID: 1723655405, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - time: 0.16666667
+      value: {fileID: -1767823447, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - time: 0.31666666
+      value: {fileID: 1427562247, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - time: 0.48333332
+      value: {fileID: -16544655, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - time: 0.65
+      value: {fileID: 764934929, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - time: 0.81666666
+      value: {fileID: 446040936, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - time: 0.96666664
+      value: {fileID: 1058997811, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - time: 1.1333333
+      value: {fileID: -629256582, guid: 022863972b016fb4eb74614dec930022, type: 3}
+>>>>>>> ShemBranch6
     attribute: m_Sprite
     path: 
     classID: 212
@@ -58,6 +76,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
+<<<<<<< HEAD
     - {fileID: -861166037, guid: 49e83518c296e0c4a89849c577058cc3, type: 3}
     - {fileID: -691530525, guid: 49e83518c296e0c4a89849c577058cc3, type: 3}
     - {fileID: 1609954612, guid: 49e83518c296e0c4a89849c577058cc3, type: 3}
@@ -66,12 +85,26 @@ AnimationClip:
     - {fileID: -1130584364, guid: 49e83518c296e0c4a89849c577058cc3, type: 3}
     - {fileID: 575798054, guid: 49e83518c296e0c4a89849c577058cc3, type: 3}
     - {fileID: 93174556, guid: 49e83518c296e0c4a89849c577058cc3, type: 3}
+=======
+    - {fileID: 1723655405, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - {fileID: -1767823447, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - {fileID: 1427562247, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - {fileID: -16544655, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - {fileID: 764934929, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - {fileID: 446040936, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - {fileID: 1058997811, guid: 022863972b016fb4eb74614dec930022, type: 3}
+    - {fileID: -629256582, guid: 022863972b016fb4eb74614dec930022, type: 3}
+>>>>>>> ShemBranch6
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
+<<<<<<< HEAD
     m_StopTime: 0.59999996
+=======
+    m_StopTime: 1.15
+>>>>>>> ShemBranch6
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

@@ -37,4 +37,8 @@ public class EnemyMovement : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, player.position, enemy.currentMoveSpeed * Time.deltaTime);
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ShemBranch6

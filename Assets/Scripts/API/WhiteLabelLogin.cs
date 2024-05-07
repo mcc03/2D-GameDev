@@ -24,8 +24,9 @@ public class WhiteLabelLogin : MonoBehaviour
 
     private void Awake()
     {
-        //LootLockerSettingsOverrider.OverrideSettings();
+        LootLockerSettingsOverrider.OverrideSettings();
         continueButton = GameObject.Find("ContinueButton");
+        Debug.Log("API key set");
     }
 
     // Called when pressing "Log in"
@@ -116,8 +117,9 @@ public class WhiteLabelLogin : MonoBehaviour
             {
                 // Succesful response
                 // AssignName(existingUserEmailInputField.text.ToString());
-                startSession(email);
+                
                 infoText.text = "Account created";
+                startSession(email);
             }
         });
     }
