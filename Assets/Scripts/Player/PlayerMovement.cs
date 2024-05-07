@@ -5,7 +5,6 @@ using Terresquall;
 
 public class PlayerMovement : MonoBehaviour
 {
-
     //movement
     public float moveSpeed;
 
@@ -36,44 +35,44 @@ public class PlayerMovement : MonoBehaviour
     }
 
     //better for physics updates- not based on framerate
-    void FixedUpdate() {
+    void FixedUpdate()
+    {
         Move();
     }
 
     void InputManagement()
     {
         // disable movement inputs if game over is true
-        if(GameManager.instance.isGamerOver)
+        if (GameManager.instance.isGamerOver)
         {
             return;
         }
-        
-        float moveX, moveY;
-        moveX = Input.GetAxisRaw("Horizontal"); 
-        moveY = Input.GetAxisRaw("Vertical");
 
-        if(VirtualJoystick.CountActiveInstances() > 0) 
+        float moveX, moveY;
+        moveX = Input.GetAxis("Horizontal");
+        moveY = Input.GetAxis("Vertical");
+
+        if (VirtualJoystick.CountActiveInstances() > 0)
         {
-        moveX += VirtualJoystick.GetAxisRaw("Horizontal");
-        moveY += VirtualJoystick.GetAxisRaw("Vertical");
+            moveX += VirtualJoystick.GetAxisRaw("Horizontal");
+            moveY += VirtualJoystick.GetAxisRaw("Vertical");
         }
-        
 
         moveDir = new Vector2(moveX, moveY).normalized;
 
-        if(moveDir.x !=0)
+        if (moveDir.x != 0)
         {
             lastHorizontalVector = moveDir.x;
             lastMovedVector = new Vector2(lastHorizontalVector, 0f); // last movement x
         }
 
-        if(moveDir.y != 0)
+        if (moveDir.y != 0)
         {
             lastVerticalVector = moveDir.y;
             lastMovedVector = new Vector2(0f, lastVerticalVector); // last movement y
         }
 
-        if(moveDir.x != 0 && moveDir.y != 0)
+        if (moveDir.x != 0 && moveDir.y != 0)
         {
             lastMovedVector = new Vector2(lastHorizontalVector, lastVerticalVector); // while moving
         }
@@ -82,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
     void Move()
     {
         // disable movement inputs if game over is true
-        if(GameManager.instance.isGamerOver)
+        if (GameManager.instance.isGamerOver)
         {
             return;
         }
