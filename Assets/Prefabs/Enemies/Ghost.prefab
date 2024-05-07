@@ -153,7 +153,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
+  m_Size: {x: 0.4, y: 0.7}
   m_EdgeRadius: 0
 --- !u!114 &3967827099921289974
 MonoBehaviour:
@@ -186,7 +186,7 @@ MonoBehaviour:
   drops:
   - name: Blue Gem
     itemPrefab: {fileID: 8661467440491389818, guid: 0be0632be09d1d8409c1272bdee4454f, type: 3}
-    dropRate: 0
+    dropRate: 100
 --- !u!114 &-7378126421068535006
 MonoBehaviour:
   m_ObjectHideFlags: 0
