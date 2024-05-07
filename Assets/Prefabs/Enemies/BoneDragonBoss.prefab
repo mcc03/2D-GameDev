@@ -199,7 +199,7 @@ MonoBehaviour:
   drops:
   - name: blue gm
     itemPrefab: {fileID: 8661467440491389818, guid: 0be0632be09d1d8409c1272bdee4454f, type: 3}
-    dropRate: 1
+    dropRate: 100
 --- !u!114 &3292416420356515343
 MonoBehaviour:
   m_ObjectHideFlags: 0
