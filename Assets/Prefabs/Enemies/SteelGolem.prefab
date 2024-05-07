@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -6102616529479405967}
   - component: {fileID: 4449872164782609164}
   - component: {fileID: -5190400991861907047}
+  - component: {fileID: -5786380605265038633}
   m_Layer: 0
   m_Name: SteelGolem
   m_TagString: Enemy
@@ -183,3 +184,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stopDistance: 2
+--- !u!114 &-5786380605265038633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282732592985684021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f55a0bea4226241868c7b6d1e2b237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 3db51e53d3f7a6848bf281998f34b958, type: 2}
+  currentMoveSpeed: 0
+  currentHealth: 0
+  currentDamage: 0

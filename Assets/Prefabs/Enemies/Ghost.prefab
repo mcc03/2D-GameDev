@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f55a0bea4226241868c7b6d1e2b237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyData: {fileID: 11400000, guid: a0ccf08979f7142408f6e81bb0a44b83, type: 2}
+  enemyData: {fileID: 11400000, guid: 23a6e85869a4cdd49a1aecacd7a5f7cb, type: 2}
   currentMoveSpeed: 0
   currentHealth: 0
   currentDamage: 0
