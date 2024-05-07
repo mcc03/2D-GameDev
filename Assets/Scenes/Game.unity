@@ -3505,7 +3505,7 @@ MonoBehaviour:
       spawnCount: 0
       enemyPrehab: {fileID: 2350895254006300732, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
     waveQuota: 0
-    spawnInterval: 0
+    spawnInterval: 5
     spawnCount: 0
   - waveName: Wave 2
     enemyGroups:
@@ -3514,42 +3514,42 @@ MonoBehaviour:
       spawnCount: 0
       enemyPrehab: {fileID: 2350895254006300732, guid: cc70f4d5b13a413449f18cbe900dffc7, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 5
     spawnCount: 0
   - waveName: Wave 3
     enemyGroups:
     - enemyName: bat
-      enemyCount: 30
+      enemyCount: 0
       spawnCount: 0
       enemyPrehab: {fileID: 2350895254006300732, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
     - enemyName: Skeleton
-      enemyCount: 15
+      enemyCount: 10
       spawnCount: 0
       enemyPrehab: {fileID: 2449664226011781829, guid: 983440b25806cdc458e1962cabda8957, type: 3}
     waveQuota: 0
-    spawnInterval: 0.5
+    spawnInterval: 5
     spawnCount: 0
   - waveName: Wave 4
     enemyGroups:
     - enemyName: bat
-      enemyCount: 30
+      enemyCount: 5
       spawnCount: 0
       enemyPrehab: {fileID: 2350895254006300732, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
     - enemyName: Zombies
-      enemyCount: 15
+      enemyCount: 0
       spawnCount: 0
       enemyPrehab: {fileID: 3130206025362071858, guid: c1d5279c6f2aedc46b477dd2b46e6b08, type: 3}
     waveQuota: 0
-    spawnInterval: 0.5
+    spawnInterval: 5
     spawnCount: 0
   - waveName: Wave 5
     enemyGroups:
     - enemyName: Steel Golem
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrehab: {fileID: 2350895254006300732, guid: 29d2e95bcf333254d840f452ebc3aed5, type: 3}
     - enemyName: Ghost
-      enemyCount: 5
+      enemyCount: 10
       spawnCount: 0
       enemyPrehab: {fileID: 622965054637499769, guid: 32dd5c16719d6824cab86cacdd22772f, type: 3}
     - enemyName: Skeleton Dragon
@@ -3557,13 +3557,13 @@ MonoBehaviour:
       spawnCount: 0
       enemyPrehab: {fileID: 6852636218998068782, guid: d96588d13b21219448a85520302d8c4d, type: 3}
     waveQuota: 0
-    spawnInterval: 2
+    spawnInterval: 5
     spawnCount: 0
   currentWaveCount: 0
   enemiesAlive: 0
   maxEnemiesAllowed: 100
   maxEnemiesReached: 0
-  waveInterval: 5
+  waveInterval: 10
   relativesSpawnPoints:
   - {fileID: 1570680997}
   - {fileID: 202426025}
